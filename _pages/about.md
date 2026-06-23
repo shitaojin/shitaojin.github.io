@@ -9,9 +9,11 @@ profile:
   image: profile.jpg
   image_circular: false
   more_info: >
-    <p>Tongji University</p>
-    <p>The University of Melbourne</p>
-    <p>Shanghai / Melbourne</p>
+    <div class="profile-affiliation">
+      <p>Tongji University</p>
+      <p>The University of Melbourne</p>
+      <p>Shanghai / Melbourne</p>
+    </div>
 
 selected_papers: true
 social: true
@@ -29,22 +31,22 @@ I am **Shitao Jin (靳世涛)**, a PhD candidate in Architecture at [Tongji Univ
 
 My research sits at the intersection of architectural programming, construction and project management, and AI-enabled decision-making. I develop methods for complex public projects such as mega transportation hubs, child-friendly communities, urban renewal, social infrastructure, and learning environments. Methodologically, I work with text mining, topic modeling, sentiment analysis, bibliometrics, social network analysis, multi-criteria decision-making, fuzzy/grey methods, Monte Carlo simulation, deep learning, and multi-agent reinforcement learning.
 
-<div class="row mt-3 mb-3">
-  <div class="col-sm mt-2">
-    <strong>289</strong><br>
-    Google Scholar citations
+<div class="profile-metrics">
+  <div class="metric-card">
+    <strong>289</strong>
+    <span>Google Scholar citations</span>
   </div>
-  <div class="col-sm mt-2">
-    <strong>8</strong><br>
-    h-index
+  <div class="metric-card">
+    <strong>8</strong>
+    <span>h-index</span>
   </div>
-  <div class="col-sm mt-2">
-    <strong>21</strong><br>
-    papers and conference papers
+  <div class="metric-card">
+    <strong>21</strong>
+    <span>papers and conference papers</span>
   </div>
-  <div class="col-sm mt-2">
-    <strong>146</strong><br>
-    verified peer reviews
+  <div class="metric-card">
+    <strong>146</strong>
+    <span>verified peer reviews</span>
   </div>
 </div>
 
@@ -52,9 +54,23 @@ I am particularly interested in academic, postdoctoral, and research-oriented op
 
 **Highlights**
 
-- Joint-training PhD researcher at The University of Melbourne since September 2025, supervised by A/Prof Felix Kin Peng Hui and Dr Paulo Vaz-Serra.
-- National Scholarship for PhD Students in 2024 and 2025; National Scholarship for Master Students in 2022.
-- Verified Web of Science / Publons / ORCID reviewer, with 146 reviews across 7 journals from 2024 to 2026.
-- Publications in journals including _Engineering, Construction and Architectural Management_, _Frontiers of Architectural Research_, _Buildings_, _Sustainability_, _Frontiers in Psychology_, _Architectural Engineering and Design Management_, _Journal of Construction Engineering and Management_, and _Journal of Architectural Engineering_.
+<div class="highlight-grid">
+  <div class="highlight-card">
+    <strong>Joint doctoral training</strong>
+    <span>The University of Melbourne since September 2025, supervised by A/Prof Felix Kin Peng Hui and Dr Paulo Vaz-Serra.</span>
+  </div>
+  <div class="highlight-card">
+    <strong>National scholarships</strong>
+    <span>National Scholarship for PhD Students in 2024 and 2025; National Scholarship for Master Students in 2022.</span>
+  </div>
+  <div class="highlight-card">
+    <strong>Verified peer review</strong>
+    <span>Web of Science / Publons / ORCID reviewer, with 146 reviews across 7 journals from 2024 to 2026.</span>
+  </div>
+  <div class="highlight-card">
+    <strong>Publication venues</strong>
+    <span>Engineering, Construction and Architectural Management; Frontiers of Architectural Research; Buildings; Sustainability; Frontiers in Psychology; AEDM; JCEM; and JAE.</span>
+  </div>
+</div>
 
 For a compact overview, download my [English CV]({{ '/assets/pdf/Shitao_Jin_CV_Long_EN.pdf' | relative_url }}) or [Chinese CV]({{ '/assets/pdf/Shitao_Jin_CV_Long_CN.pdf' | relative_url }}).
