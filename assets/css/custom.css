@@ -31,6 +31,35 @@ html[data-theme="light"] {
   font-size: 1.05rem;
 }
 
+.post article h2 {
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 1.35rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.55rem;
+}
+
+.post article h2 a {
+  color: inherit;
+}
+
+.post article h2 a[href$="/news/"],
+.post article h2 a[href$="/publications/"] {
+  font-size: 0;
+}
+
+.post article h2 a[href$="/news/"]::after,
+.post article h2 a[href$="/publications/"]::after {
+  font-size: 1.35rem;
+}
+
+.post article h2 a[href$="/news/"]::after {
+  content: "News";
+}
+
+.post article h2 a[href$="/publications/"]::after {
+  content: "Selected publications";
+}
+
 .profile {
   border: 1px solid var(--global-divider-color);
   border-radius: 8px;
@@ -123,6 +152,31 @@ html[data-theme="light"] {
   line-height: 1.5;
 }
 
+.awards-list {
+  list-style: none;
+  margin: 0.6rem 0 1.6rem;
+  padding: 0;
+}
+
+.awards-list li {
+  align-items: start;
+  border-top: 1px solid var(--global-divider-color);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  padding: 0.72rem 0;
+}
+
+.awards-list li:last-child {
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.award-year {
+  color: var(--global-theme-color);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
 .publications ol.bibliography li {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 1.1rem;
@@ -135,6 +189,8 @@ html[data-theme="light"] {
 
 .publications .btn {
   border-color: var(--shitao-accent-border);
+  min-width: 3rem;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
@@ -146,5 +202,9 @@ html[data-theme="light"] {
   .profile-metrics,
   .highlight-grid {
     grid-template-columns: 1fr;
+  }
+
+  .awards-list li {
+    grid-template-columns: 3.9rem minmax(0, 1fr);
   }
 }
