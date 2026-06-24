@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Architecture · AI-enabled architectural programming · Megaproject decision-making
+subtitle: Ph.D. Candidate | Researcher | Architect | AI Engineer
 
 profile:
   align: right
@@ -27,22 +27,26 @@ latest_posts:
   enabled: false
 ---
 
-I am **Shitao JIN (靳世涛)**, a PhD candidate in Architecture at [Tongji University](https://www.tongji.edu.cn/) and a joint-training researcher in the Department of Infrastructure Engineering, Faculty of Engineering and Information Technology, [The University of Melbourne](https://infrastructure.eng.unimelb.edu.au/research/engineering-management/sustainable-production/graduate-researchers/shitao-jin). My thesis investigates **a collaborative optimization system for architectural programming of mega infrastructure projects based on collective intelligence**.
+I am a Ph.D. candidate in the Department of Architecture at [Tongji University](https://www.tongji.edu.cn/) and a visiting Ph.D. researcher in the Department of Infrastructure Engineering at [The University of Melbourne](https://infrastructure.eng.unimelb.edu.au/research/engineering-management/sustainable-production/graduate-researchers/shitao-jin).
 
-My research sits at the intersection of architectural programming, construction and project management, and AI-enabled decision-making. I develop methods for complex public projects such as mega transportation hubs, child-friendly communities, urban renewal, social infrastructure, and learning environments. Methodologically, I work with text mining, topic modeling, sentiment analysis, bibliometrics, social network analysis, multi-criteria decision-making, fuzzy/grey methods, Monte Carlo simulation, deep learning, and multi-agent reinforcement learning.
+My research focuses on **AI in Architecture**, with particular attention to architectural programming, megaproject governance, and human well-being. I am interested in how reinforcement learning can support early-stage problem definition, stakeholder coordination, and evidence-based design evaluation.
+
+My recent work develops a collective intelligence-based decision-making system for the architectural programming of megaprojects. This research connects multi-agent reinforcement learning with value-oriented architectural programming dimensions, with current applications in a real-world mega transportation project.
+
+In addition to research, I have architectural practice and project management experience in railway station projects, commercial complex projects, and university campus projects. I have also served as a teaching assistant for graduate-level courses at Tongji University and The University of Melbourne.
 
 <div class="profile-metrics">
   <div class="metric-card">
-    <strong>289</strong>
+    <strong>291</strong>
     <span>Google Scholar citations</span>
   </div>
   <div class="metric-card">
-    <strong>8</strong>
-    <span>h-index</span>
+    <strong>8 / 7</strong>
+    <span>h-index / i10-index</span>
   </div>
   <div class="metric-card">
-    <strong>21</strong>
-    <span>papers and conference papers</span>
+    <strong>18 / 5</strong>
+    <span>journal papers / conference papers</span>
   </div>
   <div class="metric-card">
     <strong>146</strong>
@@ -50,7 +54,7 @@ My research sits at the intersection of architectural programming, construction 
   </div>
 </div>
 
-I am particularly interested in academic, postdoctoral, and research-oriented opportunities where architectural knowledge, computational methods, and infrastructure/project governance can be integrated. My current work builds a continuous research agenda around architectural programming as the front-end decision system of complex public projects, with AI and collective intelligence supporting early-stage problem definition, stakeholder coordination, risk reasoning, and evidence-based design evaluation.
+I am interested in academic, postdoctoral, and research-oriented opportunities focused on intelligent construction, innovative management, and smart cities, especially where architectural knowledge, computational methods, and infrastructure governance can be integrated.
 
 ## Highlights
 
@@ -72,6 +76,10 @@ I am particularly interested in academic, postdoctoral, and research-oriented op
     <span>Engineering, Construction and Architectural Management; Frontiers of Architectural Research; Buildings; Sustainability; Frontiers in Psychology; AEDM; JCEM; and JAE.</span>
   </div>
 </div>
+
+## News
+
+{% include news.liquid limit=true %}
 
 ## Scholarships & awards
 
@@ -101,10 +109,6 @@ I am particularly interested in academic, postdoctoral, and research-oriented op
     <span>Jilin Provincial Government Scholarship and First-Class Undergraduate Academic Scholarship.</span>
   </li>
 </ul>
-
-## News
-
-{% include news.liquid limit=true %}
 
 ## Selected publications
 
