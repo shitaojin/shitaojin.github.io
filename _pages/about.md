@@ -15,11 +15,11 @@ profile:
       <p>Shanghai / Melbourne</p>
     </div>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 
@@ -101,3 +101,11 @@ I am particularly interested in academic, postdoctoral, and research-oriented op
     <span>Jilin Provincial Government Scholarship and First-Class Undergraduate Academic Scholarship.</span>
   </li>
 </ul>
+
+## News
+
+{% include news.liquid limit=true %}
+
+## Selected publications
+
+{% include selected_papers.liquid %}
