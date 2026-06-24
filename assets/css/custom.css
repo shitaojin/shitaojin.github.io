@@ -42,24 +42,6 @@ html[data-theme="light"] {
   color: inherit;
 }
 
-.post article h2 a[href$="/news/"],
-.post article h2 a[href$="/publications/"] {
-  font-size: 0;
-}
-
-.post article h2 a[href$="/news/"]::after,
-.post article h2 a[href$="/publications/"]::after {
-  font-size: 1.35rem;
-}
-
-.post article h2 a[href$="/news/"]::after {
-  content: "News";
-}
-
-.post article h2 a[href$="/publications/"]::after {
-  content: "Selected publications";
-}
-
 .profile {
   border: 1px solid var(--global-divider-color);
   border-radius: 8px;
