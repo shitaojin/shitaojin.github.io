@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Teaching interests, course development, and design education experience.
 nav: true
-nav_order: 4
+nav_order: 6
 ---
 
 My teaching interests are closely aligned with my research: architectural programming, AI for architectural design, construction and project management, research methods, and evidence-based design. I am especially interested in helping students use AI tools critically across problem exploration, information gathering, decision-making, design iteration, and design evaluation.

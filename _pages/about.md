@@ -1,8 +1,10 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Candidate | Researcher | Architect | AI Engineer
+nav: true
+nav_order: 1
 
 profile:
   align: right
@@ -79,7 +81,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
 
 ## News
 
-<div class="home-news">
+<div class="home-news home-news--excerpt">
   <table>
     <tbody>
       <tr>
@@ -158,9 +160,13 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
   </table>
 </div>
 
+<div class="section-actions">
+  <a class="show-more-button" href="{{ '/news/' | relative_url }}">Show more</a>
+</div>
+
 <h2 class="section-title no-rule">Scholarships & awards</h2>
 
-<ul class="awards-list">
+<ul class="awards-list awards-list--excerpt">
   <li>
     <span class="award-year">2025</span>
     <span><strong>National Scholarship</strong>, Ministry of Education of the PRC</span>
@@ -211,6 +217,18 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
   </li>
 </ul>
 
+<div class="section-actions">
+  <a class="show-more-button" href="{{ '/awards/' | relative_url }}">Show more</a>
+</div>
+
 <h2 class="section-title no-rule">Selected publications</h2>
 
 {% include selected_papers.liquid %}
+
+<div class="section-actions">
+  <a class="show-more-button" href="{{ '/publications/' | relative_url }}">Show more</a>
+</div>
+
+<div class="section-actions cv-action">
+  <a class="show-more-button show-more-button--secondary" href="{{ '/cv/' | relative_url }}">View full CV</a>
+</div>

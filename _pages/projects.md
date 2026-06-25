@@ -1,10 +1,10 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /projects/
 description: Research themes, methods, and project-based academic contributions.
 nav: true
-nav_order: 3
+nav_order: 5
 display_categories: [research, methods]
 horizontal: true
 ---
