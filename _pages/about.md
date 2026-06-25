@@ -21,7 +21,7 @@ social: true
 announcements:
   enabled: false
   scrollable: true
-  limit: 5
+  limit: 20
 
 latest_posts:
   enabled: false
@@ -81,59 +81,59 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
 
 {% include news.liquid limit=true %}
 
-## Scholarships & awards
+<h2 class="section-title no-rule">Scholarships & awards</h2>
 
 <ul class="awards-list">
   <li>
     <span class="award-year">2025</span>
-    <span>**National Scholarship**, Ministry of Education of the PRC</span>
+    <span><strong>National Scholarship</strong>, Ministry of Education of the PRC</span>
   </li>
   <li>
     <span class="award-year">2025</span>
-    <span>**Outstanding Student**, Tongji University</span>
+    <span><strong>Outstanding Student</strong>, Tongji University</span>
   </li>
   <li>
     <span class="award-year">2024</span>
-    <span>**National Scholarship**, Ministry of Education of the PRC</span>
+    <span><strong>National Scholarship</strong>, Ministry of Education of the PRC</span>
   </li>
   <li>
     <span class="award-year">2024</span>
-    <span>**Outstanding Student**, Tongji University</span>
+    <span><strong>Outstanding Student</strong>, Tongji University</span>
   </li>
   <li>
     <span class="award-year">2023</span>
-    <span>**Outstanding Graduate**, Huazhong University of Science and Technology</span>
+    <span><strong>Outstanding Graduate</strong>, Huazhong University of Science and Technology</span>
   </li>
   <li>
     <span class="award-year">2022</span>
-    <span>**National Scholarship**, Ministry of Education of the PRC.</span>
+    <span><strong>National Scholarship</strong>, Ministry of Education of the PRC.</span>
   </li>
   <li>
     <span class="award-year">2022</span>
-    <span>**Excellent graduate student**, Huazhong University of Science and Technology</span>
+    <span><strong>Excellent graduate student</strong>, Huazhong University of Science and Technology</span>
   </li>
   <li>
     <span class="award-year">2022</span>
-    <span>**First-Class Scholarship**, Huazhong University of Science and Technology</span>
+    <span><strong>First-Class Scholarship</strong>, Huazhong University of Science and Technology</span>
   </li>
   <li>
     <span class="award-year">2021</span>
-    <span>**First-Class Scholarship**, Huazhong University of Science and Technology</span>
+    <span><strong>First-Class Scholarship</strong>, Huazhong University of Science and Technology</span>
   </li>
   <li>
     <span class="award-year">2020</span>
-    <span>**First-Class Scholarship**, Huazhong University of Science and Technology</span>
+    <span><strong>First-Class Scholarship</strong>, Huazhong University of Science and Technology</span>
   </li>
   <li>
     <span class="award-year">2020</span>
-    <span>**First Prize**, National BIM Graduation Design Competition</span>
+    <span><strong>First Prize</strong>, National BIM Graduation Design Competition</span>
   </li>
   <li>
     <span class="award-year">2019</span>
-    <span>**Jilin Provincial Government Scholarship**, Jilin Provincial Education Commission</span>
+    <span><strong>Jilin Provincial Government Scholarship</strong>, Jilin Provincial Education Commission</span>
   </li>
 </ul>
 
-## Selected publications
+<h2 class="section-title no-rule">Selected publications</h2>
 
 {% include selected_papers.liquid %}
