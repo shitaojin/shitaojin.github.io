@@ -3,8 +3,6 @@ layout: about
 title: About
 permalink: /
 subtitle: Ph.D. Candidate | Researcher | Architect | AI Engineer
-nav: true
-nav_order: 1
 
 profile:
   align: right
