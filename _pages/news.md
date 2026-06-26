@@ -63,7 +63,7 @@ nav_order: 2
       </tr>
       <tr>
         <th>Oct 09, 2024</th>
-        <td>I delivered an invited <a href="https://doi.org/10.47472/C6qUucJ8">presentation</a> at the <a href="https://isocarp.org/news/60th-isocarp-world-planning-congress-proceedings/">60th ISOCARP World Planning Congress</a>, Siena, Italys.</td>
+        <td>I delivered an invited <a href="https://doi.org/10.47472/C6qUucJ8">presentation</a> at the <a href="https://isocarp.org/news/60th-isocarp-world-planning-congress-proceedings/">60th ISOCARP World Planning Congress</a>, Siena, Italy.</td>
       </tr>
       <tr>
         <th>Sep 20, 2024</th>
