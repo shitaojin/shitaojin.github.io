@@ -18,8 +18,8 @@ html[data-theme="light"] {
 
 .post-header {
   border-bottom: 1px solid var(--global-divider-color);
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.55rem;
+  margin-bottom: 1.15rem;
+  padding-bottom: 0.5rem;
 }
 
 .post-title {
@@ -34,8 +34,9 @@ html[data-theme="light"] {
 .post article h2 {
   border-bottom: 1px solid var(--global-divider-color);
   font-size: 1.35rem;
-  margin: 2rem 0 1rem;
-  padding-bottom: 0.55rem;
+  line-height: 1.25;
+  margin: 2rem 0 1.05rem;
+  padding-bottom: 0.5rem;
 }
 
 .post article h2 a {
@@ -153,6 +154,11 @@ html[data-theme="light"] {
   vertical-align: top;
 }
 
+.home-news tr:first-child th,
+.home-news tr:first-child td {
+  border-top: 0;
+}
+
 .home-news tr:last-child th,
 .home-news tr:last-child td {
   border-bottom: 1px solid var(--global-divider-color);
@@ -256,6 +262,10 @@ html[data-theme="light"] {
   padding: 0.72rem 0;
 }
 
+.awards-list li:first-child {
+  border-top: 0;
+}
+
 .awards-list li:last-child {
   border-bottom: 1px solid var(--global-divider-color);
 }
@@ -279,6 +289,10 @@ html[data-theme="light"] {
   padding-top: 1.1rem;
 }
 
+.publications ol.bibliography > li:first-child {
+  border-top: 0;
+}
+
 .publications img.preview {
   aspect-ratio: 4 / 3;
   object-fit: cover;
@@ -297,6 +311,13 @@ html[data-theme="light"] {
   margin: 0.25rem 0 0.45rem;
 }
 
+.corresponding-note {
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  margin: -0.15rem 0 0.85rem;
+  text-align: right;
+}
+
 .metric-pill {
   background: var(--shitao-accent-soft);
   border: 1px solid var(--shitao-accent-border);
@@ -310,6 +331,33 @@ html[data-theme="light"] {
   padding: 0.24rem 0.55rem;
 }
 
+.publication-summary {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0.2rem 0 1.35rem;
+}
+
+.publication-summary-card {
+  background: linear-gradient(180deg, var(--shitao-accent-soft), transparent 70%), var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+}
+
+.publication-summary-card strong {
+  color: var(--global-theme-color);
+  display: block;
+  font-size: 1.55rem;
+  line-height: 1;
+  margin-bottom: 0.35rem;
+}
+
+.publication-summary-card span {
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+}
+
 @media (max-width: 768px) {
   .profile {
     float: none !important;
@@ -317,7 +365,8 @@ html[data-theme="light"] {
   }
 
   .profile-metrics,
-  .highlight-grid {
+  .highlight-grid,
+  .publication-summary {
     grid-template-columns: 1fr;
   }
 
