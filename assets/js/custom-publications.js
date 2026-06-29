@@ -1,4 +1,7 @@
 (function () {
+  const publicationImageBase = "/assets/img/publications/";
+  const publicationImageVersion = "20260629";
+
   const publicationMetrics = [
     {
       title: "Dynamics and Influences Analysis of Public Concerns in Mega Construction Projects",
@@ -114,6 +117,93 @@
 
   const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+  const encodePath = (value) => value.split("/").map(encodeURIComponent).join("/");
+
+  const previewFilename = (image) => {
+    const fromAlt = image.getAttribute("alt");
+    if (fromAlt) return fromAlt;
+
+    const src = image.getAttribute("src") || "";
+    return decodeURIComponent(src.split("/").pop().split("?")[0]);
+  };
+
+  const publicationImageUrl = (filename) => `${publicationImageBase}${encodePath(filename)}?v=${publicationImageVersion}`;
+
+  const closePublicationLightbox = () => {
+    const lightbox = document.querySelector(".publication-lightbox");
+    if (!lightbox) return;
+
+    lightbox.classList.remove("is-open");
+    lightbox.setAttribute("hidden", "");
+    document.body.classList.remove("publication-lightbox-open");
+  };
+
+  const openPublicationLightbox = (src, label) => {
+    let lightbox = document.querySelector(".publication-lightbox");
+    if (!lightbox) {
+      lightbox = document.createElement("div");
+      lightbox.className = "publication-lightbox";
+      lightbox.setAttribute("hidden", "");
+      lightbox.innerHTML = `
+        <div class="publication-lightbox__frame" role="dialog" aria-modal="true">
+          <button class="publication-lightbox__close" type="button" aria-label="Close preview">×</button>
+          <img class="publication-lightbox__image" alt="">
+        </div>
+      `;
+      document.body.appendChild(lightbox);
+
+      lightbox.addEventListener("click", (event) => {
+        if (event.target === lightbox || event.target.classList.contains("publication-lightbox__close")) {
+          closePublicationLightbox();
+        }
+      });
+    }
+
+    const frame = lightbox.querySelector(".publication-lightbox__frame");
+    const image = lightbox.querySelector(".publication-lightbox__image");
+    image.onload = () => {
+      frame.style.setProperty("--publication-lightbox-width", image.naturalWidth);
+      frame.style.setProperty("--publication-lightbox-height", image.naturalHeight);
+    };
+    image.src = src;
+    image.alt = label;
+
+    lightbox.removeAttribute("hidden");
+    lightbox.classList.add("is-open");
+    document.body.classList.add("publication-lightbox-open");
+  };
+
+  const preparePublicationPreviews = () => {
+    document.querySelectorAll(".publications img.preview").forEach((image) => {
+      if (image.dataset.publicationPreviewReady === "true") return;
+
+      const filename = previewFilename(image);
+      const source = publicationImageUrl(filename);
+      const cleanImage = image.cloneNode(true);
+      cleanImage.classList.remove("medium-zoom-image", "medium-zoom-image--opened");
+      cleanImage.src = source;
+      cleanImage.dataset.fullSrc = source;
+      cleanImage.dataset.previewFilename = filename;
+      cleanImage.dataset.publicationPreviewReady = "true";
+      cleanImage.setAttribute("role", "button");
+      cleanImage.setAttribute("tabindex", "0");
+      cleanImage.setAttribute("aria-label", `Open publication preview: ${filename}`);
+
+      const open = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        openPublicationLightbox(source, filename);
+      };
+
+      cleanImage.addEventListener("click", open, true);
+      cleanImage.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") open(event);
+      });
+
+      image.replaceWith(cleanImage);
+    });
+  };
+
   const markCorrespondingAuthors = (authorLine, names = []) => {
     if (!authorLine || authorLine.dataset.correspondingMarked === "true") return;
 
@@ -132,7 +222,8 @@
     });
   };
 
-  const addMetricLine = () => {
+  const enhancePublications = () => {
+    preparePublicationPreviews();
     addCorrespondingNote();
 
     document.querySelectorAll("ol.bibliography > li").forEach((item) => {
@@ -158,9 +249,13 @@
     });
   };
 
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closePublicationLightbox();
+  });
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", addMetricLine);
+    document.addEventListener("DOMContentLoaded", enhancePublications);
   } else {
-    addMetricLine();
+    enhancePublications();
   }
 })();
