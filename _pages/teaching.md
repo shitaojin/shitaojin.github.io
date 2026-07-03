@@ -75,9 +75,9 @@ nav_order: 6
     <h2>Tongji University</h2>
   </div>
 
-  <article class="teaching-card teaching-card--wide">
-    <div class="teaching-media">
-      <img src="/assets/img/teaching/tongji-caup-banner.jpg" alt="Tongji University College of Architecture and Urban Planning">
+  <article class="teaching-card">
+    <div class="teaching-media teaching-media--logo">
+      <img src="/assets/img/teaching/tongji-logo.svg" alt="Tongji University logo">
     </div>
     <div class="teaching-card__body">
       <div class="teaching-meta">

@@ -37,19 +37,21 @@ In addition to research, I have architectural practice and project management ex
 
 <div class="profile-metrics">
   <div class="metric-card">
-    <strong>291</strong>
+    <strong>{{ site.data.scholar.citations | default: 298 }}</strong>
     <span>Google Scholar citations</span>
+    <small>Synced {{ site.data.scholar.updated | default: "2026-07-02" | date: "%Y-%m-%d" }}</small>
   </div>
   <div class="metric-card">
-    <strong>8 / 7</strong>
+    <strong>{{ site.data.scholar.h_index | default: 8 }} / {{ site.data.scholar.i10_index | default: 7 }}</strong>
     <span>h-index / i10-index</span>
+    <small>{{ site.data.scholar.source | default: "Google Scholar" }}</small>
   </div>
   <div class="metric-card">
     <strong>20 / 2</strong>
     <span>journal papers / conference papers</span>
   </div>
   <div class="metric-card">
-    <strong>164</strong>
+    <strong>169</strong>
     <span>verified peer reviews</span>
   </div>
 </div>
@@ -69,7 +71,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
   </div>
   <div class="highlight-card">
     <strong>Verified peer review</strong>
-    <span>Recognized reviewer on Web of Science, with 164 verified reviews across 9 international journals.</span>
+    <span>Recognized reviewer on Web of Science, with 169 verified reviews across 10 international journals.</span>
   </div>
   <div class="highlight-card">
     <strong>Publication venues</strong>
@@ -92,7 +94,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
       </tr>
       <tr>
         <th>May 09, 2026</th>
-        <td>I delivered an invited <a href="https://papers.cumincad.org/data/works/att/caadria2026_268.pdf">presentation</a> at the <a href="https://www.caadria2026.org/">31st International Conference on CAADRIA</a>, NYCU, Hsinchu, Taiwan, China.</td>
+        <td>I delivered an invited <a href="https://papers.cumincad.org/data/works/att/caadria2026_268.pdf">presentation</a> at the <a href="https://www.caadria2026.org/">31st International Conference on CAADRIA</a>, NYCU, Hsinchu, Taiwan.</td>
       </tr>
       <tr>
         <th>Apr 18, 2026</th>
@@ -207,7 +209,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
 <ul class="awards-list awards-list--excerpt">
   <li>
     <span class="award-year">2025</span>
-    <span><strong>National Scholarship</strong>, Ministry of Education of the P.R.C.</span>
+    <span><strong>National Scholarship</strong>, Ministry of Education of the PRC</span>
   </li>
   <li>
     <span class="award-year">2025</span>
@@ -215,7 +217,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
   </li>
   <li>
     <span class="award-year">2024</span>
-    <span><strong>National Scholarship</strong>, Ministry of Education of the P.R.C.</span>
+    <span><strong>National Scholarship</strong>, Ministry of Education of the PRC</span>
   </li>
   <li>
     <span class="award-year">2024</span>
@@ -227,7 +229,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
   </li>
   <li>
     <span class="award-year">2022</span>
-    <span><strong>National Scholarship</strong>, Ministry of Education of the P.R.C.</span>
+    <span><strong>National Scholarship</strong>, Ministry of Education of the PRC.</span>
   </li>
   <li>
     <span class="award-year">2022</span>
@@ -247,7 +249,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
   </li>
   <li>
     <span class="award-year">2020</span>
-    <span><strong>First Prize</strong>, The National BIM Graduation Design Competition</span>
+    <span><strong>First Prize</strong>, National BIM Graduation Design Competition</span>
   </li>
   <li>
     <span class="award-year">2019</span>
