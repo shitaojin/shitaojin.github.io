@@ -5,7 +5,7 @@ cv:
   phone: "+86 189-8601-1150"
   location: Shanghai, China / Melbourne, Australia
   image: /assets/img/profile.jpg
-  summary: PhD candidate in Architecture at Tongji University and joint-training researcher at The University of Melbourne. Research interests include architectural programming, AI-enabled decision-making, collective intelligence, and megaproject governance.
+  summary: PhD candidate in Architecture at Tongji University and visiting PhD researcher in the Department of Infrastructure Engineering at The University of Melbourne. My research develops AI-enabled architectural programming, collective-intelligence decision-making, megaproject governance, and human-centered built-environment evaluation.
 
   social_networks:
     - network: Google Scholar
@@ -14,31 +14,64 @@ cv:
       username: 0000-0002-2824-7318
     - network: LinkedIn
       username: shitao-jin-55ab8832b
+    - network: Web of Science
+      username: GQY-9801-2022
 
   sections:
-    Education:
-      - institution: The University of Melbourne
-        location: Melbourne, Australia
-        url: https://infrastructure.eng.unimelb.edu.au/research/engineering-management/sustainable-production/graduate-researchers/shitao-jin
-        area: Department of Infrastructure Engineering, Faculty of Engineering and Information Technology
-        studyType: Joint PhD Training / Visiting Graduate Researcher
-        start_date: 2025-09
-        end_date: present
+    Profile:
+      - name: Academic snapshot
+        summary: 22 published papers, including 20 peer-reviewed journal articles and 2 published conference papers. My publication record includes 16 first- or corresponding-author peer-reviewed journal articles, 298 Google Scholar citations, h-index / i10-index of 8 / 7, and 169 verified peer reviews.
         highlights:
-          - "Thesis: A collaborative optimization system for architectural programming of mega infrastructure projects based on collective intelligence."
-          - "Research group: Engineering Management."
-          - "Supervisors: A/Prof Felix Kin Peng Hui and Dr Paulo Vaz-Serra."
+          - AI-enabled architectural programming and collective-intelligence decision-making.
+          - Megaproject governance, public concerns, stakeholder coordination, complexity, and risk.
+          - Child-friendly communities, urban renewal, and human well-being in the built environment.
+          - Higher-education learning environments and AI-supported architectural teaching.
 
+    Research Clusters:
+      - name: AI-enabled architectural programming and collective-intelligence decision-making
+        summary: Treats architectural programming as a front-end decision system for problem definition, value clarification, stakeholder alignment, and evidence-based evaluation.
+        highlights:
+          - Develops group decision-making and multi-agent reinforcement learning frameworks for mega transportation projects and public infrastructure programming.
+          - Representative outputs include the ECAM group decision-making model, CAADRIA multi-agent reinforcement learning paper, and AEDM review of collective intelligence in construction.
+          - Grant-ready direction: AI-supported briefing platforms integrating expert judgment, public needs, and adaptive optimization.
+
+      - name: Megaproject governance, complexity, and stakeholder coordination
+        summary: Builds computational evidence for megaproject risk, complexity, stakeholder networks, and dynamic public concerns.
+        highlights:
+          - Integrates social network analysis, multi-criteria decision-making, gray fuzzy group decision-making, Monte Carlo simulation, topic modeling, sentiment analysis, and systematic review.
+          - Representative outputs include JCEM public concern dynamics, JAE risk assessment, ECAM complexity measurement, and ECAM stakeholder identification papers.
+          - Grant-ready direction: transparent and stakeholder-responsive infrastructure governance toolkits.
+
+      - name: Human-centered and value-based built-environment evaluation
+        summary: Extends architectural programming from buildings to communities, streets, learning environments, and child-friendly public spaces.
+        highlights:
+          - Uses street-view imagery, questionnaire data, public reviews, AI perception models, and post-occupancy evaluation.
+          - Representative outputs include FoAR value-based programming for children's well-being, FoAR neighborhood center public perception analysis, and learning-environment studies.
+          - Grant-ready direction: human-centered AI for community renewal, social infrastructure, and learning-space evaluation.
+
+    Education and Visiting Research:
       - institution: Tongji University
         location: Shanghai, China
         area: Architecture, College of Architecture and Urban Planning
         studyType: PhD
         start_date: 2023-09
-        end_date: 2027-06
+        end_date: 2027-06 expected
         score: "GPA: 3.60/4.00"
         highlights:
+          - "Dissertation: Collective-Intelligence-Based Collaborative Decision-Making Systems for Architectural Programming."
+          - "Research focus: architectural programming, AI-enabled group decision-making, collective intelligence, and megaproject management."
           - "Supervisor: Prof. Huijun Tu."
-          - "Research focus: architectural programming, AI-enabled group decision-making, and megaproject management."
+
+      - institution: The University of Melbourne
+        location: Melbourne, Australia
+        url: https://infrastructure.eng.unimelb.edu.au/research/engineering-management/sustainable-production/graduate-researchers/shitao-jin
+        area: Department of Infrastructure Engineering, Faculty of Engineering and Information Technology
+        studyType: Visiting PhD Researcher
+        start_date: 2025-09
+        end_date: 2026
+        highlights:
+          - "Research focus: value management, stakeholder coordination, and complexity governance in megaprojects."
+          - "Joint research advisors: A/Prof Felix Kin Peng Hui and A/Prof Paulo Vaz Serra."
 
       - institution: Huazhong University of Science and Technology
         location: Wuhan, China
@@ -46,7 +79,10 @@ cv:
         studyType: Master of Architecture
         start_date: 2020-09
         end_date: 2023-06
-        score: "GPA: 3.48/4.00"
+        score: "GPA: 3.50/4.00"
+        highlights:
+          - "Thesis: Design and Evaluation of Active-Learning Built Environments in Higher Education."
+          - "Supervisor: Prof. Lei Peng."
 
       - institution: Jilin Jianzhu University
         location: Changchun, China
@@ -54,52 +90,83 @@ cv:
         studyType: Bachelor of Architecture
         start_date: 2015-09
         end_date: 2020-06
-
-    Research Profile:
-      - name: AI-enabled architectural programming
-        summary: Developed a coherent research program around architectural programming as the front-end decision system of complex public projects.
-        highlights:
-          - Architectural programming and briefing for complex public projects.
-          - AI-enabled decision-making, collective intelligence, and multi-agent reinforcement learning.
-          - Megaproject governance, complexity, risk, stakeholder coordination, and public concerns.
-
-      - name: Computational methods for design and project governance
-        summary: Combines computational social science, decision science, and design research methods for early-stage public project planning.
-        highlights:
-          - Text mining, topic modeling, sentiment analysis, bibliometrics, and systematic review.
-          - Social network analysis, entropy weight, fuzzy TOPSIS, grey relational analysis, and Monte Carlo simulation.
-          - Deep learning and computer vision for child-friendly urban street evaluation.
+        score: "GPA: 3.46/4.00"
 
     Selected Publications:
-      - title: Dynamics and Influences Analysis of Public Concerns in Mega Construction Projects
+      - title: "Dynamics and Influences Analysis of Public Concerns in Mega Construction Projects: An Integrated Topic and Sentiment Modeling Approach"
         authors:
-          - Shitao Jin
+          - Shitao Jin*
         publisher: Journal of Construction Engineering and Management
         releaseDate: 2026
         url: https://doi.org/10.1061/JCEMD4.COENG-17561
-        summary: Integrated topic and sentiment modeling approach for public concerns in mega construction projects.
+        summary: ASCE journal article on dynamic topic modeling, sentiment analysis, and public concern governance in mega construction projects.
 
-      - title: Risk Identification and Assessment of Mega Construction Projects in Uncertain Environments
+      - title: "Risk Identification and Assessment of Mega Construction Projects in Uncertain Environments: A Gray Fuzzy Group Decision-Making and Monte Carlo Simulation Method"
         authors:
-          - Shitao Jin
+          - Shitao Jin*
           - Xudong Miao
         publisher: Journal of Architectural Engineering
         releaseDate: 2026
         url: https://doi.org/10.1061/JAEIED.AEENG-2153
-        summary: Gray fuzzy group decision-making and Monte Carlo simulation for risk assessment.
+        summary: Integrated gray fuzzy group decision-making and Monte Carlo simulation for megaproject risk assessment.
 
-      - title: Interdisciplinary Perspective on Architectural Programming
+      - title: "A Value-Based Programming Framework for Enhancing Children's Well-Being in Urban Communities"
         authors:
-          - Shitao Jin
+          - Huijun Tu
+          - Shitao Jin*
+          - Xudong Miao
+          - Cong Zhou
+          - Yuming Shi
+        publisher: Frontiers of Architectural Research
+        releaseDate: 2026
+        url: https://doi.org/10.1016/j.foar.2026.02.012
+        summary: Value-based programming framework integrating street-view imagery and multi-stakeholder evidence for child well-being.
+
+      - title: "Current Status and Trends of Megaproject Research: Bibliometric and Text Mining Analysis"
+        authors:
+          - Shitao Jin*
+        publisher: Engineering, Construction and Architectural Management
+        releaseDate: 2026
+        url: https://doi.org/10.1108/ECAM-04-2024-0495
+        summary: Bibliometric and LDA topic-modeling review of megaproject research.
+
+      - title: "Measuring Complexity in Mega Construction Projects: Fuzzy Comprehensive Evaluation and Grey Relational Analysis"
+        authors:
+          - Shitao Jin*
+        publisher: Engineering, Construction and Architectural Management
+        releaseDate: 2026
+        url: https://doi.org/10.1108/ECAM-07-2024-0951
+        summary: Complexity measurement model for MCPs across technical, organizational, goal, environmental, cultural, and information dimensions.
+
+      - title: "Interdisciplinary Perspective on Architectural Programming: Current Status and Future Directions"
+        authors:
+          - Shitao Jin*
         publisher: Engineering, Construction and Architectural Management
         releaseDate: 2025
         url: https://doi.org/10.1108/ECAM-04-2024-0408
-        summary: Review of current status and future directions in architectural programming.
+        summary: Scientometric and systematic review of architectural programming research.
 
-      - title: Enhancing Architectural Education Through Artificial Intelligence
+      - title: "Identification and Evaluation of Key Stakeholders in Mega Construction Projects: Social Network Analysis and Multi-Criteria Decision-Making"
+        authors:
+          - Shitao Jin*
+          - Yuan Deng
+        publisher: Engineering, Construction and Architectural Management
+        releaseDate: 2025
+        url: https://doi.org/10.1108/ECAM-01-2025-0097
+        summary: Integrated SNA and MCDM framework for identifying and evaluating key stakeholders in megaprojects.
+
+      - title: "The Application of Collective Intelligence in the Construction Industry: A Review of the Current State, Challenges, and Opportunities"
+        authors:
+          - Shitao Jin*
+        publisher: Architectural Engineering and Design Management
+        releaseDate: 2025
+        url: https://doi.org/10.1080/17452007.2025.2478021
+        summary: Review of collective intelligence technologies, scenarios, barriers, and opportunities in construction.
+
+      - title: "Enhancing Architectural Education Through Artificial Intelligence: A Case Study of an AI-Assisted Architectural Programming and Design Course"
         authors:
           - Shitao Jin
-          - Huijun Tu
+          - Huijun Tu*
           - Jiangfeng Li
           - Yuwei Fang
           - Qu Zhang
@@ -109,49 +176,143 @@ cv:
         publisher: Buildings
         releaseDate: 2024
         url: https://doi.org/10.3390/buildings14061613
-        summary: Case study of an AI-assisted architectural programming and design course.
+        summary: Published teaching research on AI-assisted architectural programming and design education.
 
-    Peer Review and Academic Service:
+      - title: "Classroom Perception in Higher Education: The Impact of Spatial Factors on Student Satisfaction in Lecture Versus Active Learning Classrooms"
+        authors:
+          - Shitao Jin
+          - Lei Peng
+        publisher: Frontiers in Psychology
+        releaseDate: 2022
+        url: https://doi.org/10.3389/fpsyg.2022.941285
+        summary: Empirical study of spatial factors, classroom type, and student satisfaction in higher education.
+
+    Complete Publications:
+      - title: "Peer-reviewed journal articles: 20 published papers"
+        summary: JCEM 2026; JAE 2026; Frontiers of Architectural Research 2026 (2 papers); PLOS One 2026; ECAM 2026 (2 papers); ECAM 2025 (2 papers); Architectural Engineering and Design Management 2025; Frontiers of Architectural Research 2025; Buildings 2025; Architecture and Culture 2025; Buildings 2024; ECAM 2024; Frontiers in Psychology 2022; Sustainability 2022 (2 papers); Buildings 2022; New Architecture 2022.
+        highlights:
+          - "All article details, DOI links, abstracts, BibTeX, and preview images are maintained on the Publications page."
+          - "The full academic CV PDF includes the complete numbered list of 20 journal articles."
+
+      - title: "Published conference papers: 2 papers"
+        summary: CAADRIA 2026 and ISOCARP World Planning Congress 2024.
+        highlights:
+          - "Collective Intelligence in Architectural Programming: Multi-Agent Reinforcement Learning for Optimization in Mega Transportation Projects."
+          - "Reprogramming Urban Communities: Enhancing Children's Well-Being Through a Value-Based Programming Approach in Inclusive Planning and Design."
+
+      - title: Forthcoming and submitted manuscript
+        summary: Enabling Intelligent Collaboration in Architectural Programming, a hierarchical multi-agent reinforcement learning framework for mega transportation projects, is in development for Construction Research Congress 2026 and is not counted in the 22 published-paper total until formally published.
+
+    Research Projects and Funding Potential:
+      - title: Collective-intelligence architectural programming system for mega infrastructure projects
+        date: 2023 - present
+        summary: Doctoral research project linking architectural programming theory, stakeholder coordination, and multi-agent reinforcement learning.
+        highlights:
+          - Deployable decision-support workflows for early-stage programming of mega transportation projects.
+          - Integration of expert judgment, public values, stakeholder preferences, and AI optimization.
+
+      - title: Value management, stakeholder coordination, and complexity governance in megaprojects
+        date: 2025 - present
+        summary: Visiting PhD research at The University of Melbourne, Department of Infrastructure Engineering.
+        highlights:
+          - Connects infrastructure engineering management with architectural front-end decision-making and public-value evaluation.
+
+      - title: Postdoctoral and early-career PI directions
+        date: 2026 - 2031
+        summary: Grant development themes include AI-enabled collaborative programming platforms, human-centered urban analytics, and transparent megaproject governance models.
+
+    Teaching, Curriculum Development, and Mentoring:
+      - institution: The University of Melbourne
+        location: Melbourne, Australia
+        position: Teaching Assistant, Engineering Management Capstone (ENGM90016)
+        start_date: 2025
+        end_date: Semester 2
+        highlights:
+          - Supported graduate student teams in project formulation, business-case logic, proposal presentation, budgets, risk management, and project control.
+          - Emphasized decision criteria, economic and financial reasoning, communication, leadership, and collaborative engineering management.
+          - ENGM90016 achieved Top 20% of ESS scores in EMI in Semester 2 of 2025.
+
+      - institution: Tongji University
+        location: Shanghai, China
+        position: Teaching Assistant, AI Enabled Architectural Programming and Design
+        start_date: 2024
+        end_date: 2025
+        highlights:
+          - Guided graduate students in child-friendly public-space problem framing, social context analysis, field research, LLM/AIGC workflows, architectural programming, and evidence-based design deliverables.
+          - Contributed to course design linking public needs analysis, brief generation, design iteration, and multi-stakeholder evaluation.
+          - Developed and evaluated an AI-assisted architectural programming and design course model, published in Buildings in 2024.
+
+      - title: Teaching and mentoring areas
+        date: ongoing
+        summary: Architectural programming; AI for architectural design; construction and project management; research methods; evidence-based design and post-occupancy evaluation.
+
+    Academic Service and Peer Review:
       - company: Web of Science / Publons / ORCID
         position: Verified peer reviewer
         location: International
         start_date: 2024
         end_date: 2026
-        summary: 164 verified reviews across 9 journals.
+        summary: 169 verified peer reviews across 10 journals.
         highlights:
-          - "Engineering, Construction and Architectural Management: 73 reviews."
-          - "Buildings: 32 reviews."
-          - "Sustainability: 31 reviews."
-          - "Systems, SAGE Open, Geocarto International, and Journal of Asian Architecture and Building Engineering."
+          - Main reviewer for Journal of Construction Engineering and Management, Engineering, Construction and Architectural Management, Journal of Asian Architecture and Building Engineering, Journal of Safety Science and Resilience, Cleaner and Circular Bioeconomy, PLOS One, Buildings, and related venues.
+          - "WoS Core Collection author metrics: 10 indexed publications, WoS h-index 6, 95 times cited, and 85 citing articles."
 
-    Honors and Awards:
+    Invited Talks and Conference Presentations:
+      - institution: 31st International Conference of the Association for Computer-Aided Architectural Design Research in Asia (CAADRIA)
+        location: Hsinchu, Taiwan, China
+        date: 2026-05
+        highlights:
+          - Presented research on collective intelligence and multi-agent reinforcement learning for architectural programming in mega transportation projects.
+
+      - institution: 60th ISOCARP World Planning Congress
+        location: Siena, Italy
+        date: 2024-10
+        highlights:
+          - Presented a value-based architectural programming approach for enhancing children's well-being in inclusive urban community planning.
+
+    Awards, Honors, and Competitive Funding:
       - title: National Scholarship for PhD Students
         date: 2025
-        awarder: Ministry of Education of the People's Republic of China
-        summary: National-level scholarship for doctoral students.
-
+        awarder: Ministry of Education of the P.R.C.
+      - title: Outstanding Student
+        date: 2025
+        awarder: Tongji University
       - title: National Scholarship for PhD Students
         date: 2024
-        awarder: Ministry of Education of the People's Republic of China
-        summary: National-level scholarship for doctoral students.
-
+        awarder: Ministry of Education of the P.R.C.
+      - title: Outstanding Student
+        date: 2024
+        awarder: Tongji University
+      - title: Outstanding Graduate
+        date: 2023
+        awarder: Huazhong University of Science and Technology
       - title: National Scholarship for Master Students
         date: 2022
-        awarder: Ministry of Education of the People's Republic of China
-
-      - title: Other academic awards
-        date:
-        summary: Outstanding Graduate; Three-Good Graduate; First-Class Academic Scholarship; Zhixing Excellence Award; Jilin Provincial Government Scholarship; First-Class Undergraduate Academic Scholarship; First Prize in the National BIM Graduation Design Competition; Second Prize in the National College English Competition.
+        awarder: Ministry of Education of the P.R.C.
+      - title: Excellent Graduate Student
+        date: 2022
+        awarder: Huazhong University of Science and Technology
+      - title: First-Class Scholarship
+        date: 2020, 2021, 2022, 2023
+        awarder: Huazhong University of Science and Technology
+      - title: First Prize, National BIM Graduation Design Competition
+        date: 2020
+      - title: Jilin Provincial Government Scholarship
+        date: 2019
+        awarder: Jilin Provincial Education Commission
+      - title: First-Class Undergraduate Academic Scholarship
+        awarder: Jilin Jianzhu University
+      - title: Second Prize, National College English Competition
 
     Professional Practice:
-      - company: China Railway Siyuan Survey and Design Group Co., Ltd.
-        position: Architectural Management Intern
-        location: China
+      - company: China Railway Siyuan Survey and Design Group
+        position: Architecture Management Intern
+        location: Wuhan, China
         start_date: 2022-07
         end_date: 2022-08
         highlights:
-          - Construction documentation for Nantong Station and Changzhou South Station.
-          - Schematic design for Wenzhou East Station urban transport interchange center.
+          - Contributed to construction drawings for Nantong Station and Changzhou South Station.
+          - Developed concept design work for Wenzhou East Station urban transportation interchange center.
 
       - company: China Architecture Design and Research Group
         position: Architectural Design Intern
@@ -159,7 +320,7 @@ cv:
         start_date: 2021-07
         end_date: 2021-09
         highlights:
-          - Green building design, energy-saving calculations, and construction drawings for Jinan Evergrande International Financial Center.
+          - Supported green building design, energy-saving calculations, and construction drawings for Jinan Evergrande International Financial Center.
 
       - company: Wuhan Hechuang Architectural Design Co., Ltd.
         position: Architectural Design Intern
@@ -167,7 +328,7 @@ cv:
         start_date: 2019-06
         end_date: 2019-08
         highlights:
-          - Campus planning and architectural design for Wuhan Optics Valley No. 13 Junior High School.
+          - Supported campus planning and architectural design for Wuhan Optics Valley No. 13 Junior High School.
 
     Skills:
       - name: Computational research
@@ -178,12 +339,17 @@ cv:
       - name: Decision and text analytics
         level: Advanced
         icon: fa-solid fa-chart-line
-        keywords: Bibliometrics, LDA topic modeling, sentiment analysis, social network analysis, entropy weight, fuzzy TOPSIS, Monte Carlo simulation
+        keywords: Bibliometrics, LDA topic modeling, sentiment analysis, social network analysis, entropy weight, fuzzy TOPSIS, fuzzy comprehensive evaluation, grey relational analysis, Monte Carlo simulation
 
       - name: Architecture and design software
         level: Advanced
         icon: fa-solid fa-drafting-compass
         keywords: Rhino, Grasshopper, Revit, AutoCAD, SketchUp, Photoshop, Illustrator, InDesign, Premiere Pro
+
+      - name: Academic writing and service
+        level: Advanced
+        icon: fa-solid fa-pen-nib
+        keywords: Systematic review, scientometrics, journal peer review, proposal writing, research presentation
 
     Languages:
       - name: Chinese
@@ -198,8 +364,8 @@ cv:
 
       - name: A/Prof Felix Kin Peng Hui
         icon: fa-solid fa-user-graduate
-        reference: Joint-training supervisor, Department of Infrastructure Engineering, Faculty of Engineering and Information Technology, The University of Melbourne.
+        reference: Joint research advisor, Department of Infrastructure Engineering, Faculty of Engineering and Information Technology, The University of Melbourne.
 
-      - name: Dr Paulo Vaz-Serra
+      - name: A/Prof Paulo Vaz Serra
         icon: fa-solid fa-user-graduate
-        reference: Joint-training supervisor, The University of Melbourne.
+        reference: Joint research advisor, Department of Infrastructure Engineering, Faculty of Engineering and Information Technology, The University of Melbourne.
