@@ -650,6 +650,38 @@ html[data-theme="light"] {
   margin: 0.2rem 0 1.4rem;
 }
 
+.cv-page-note {
+  background: linear-gradient(180deg, var(--shitao-accent-soft), transparent 72%), var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 8px;
+  margin: 0 0 1rem;
+  padding: 0.85rem 1rem;
+}
+
+.cv-page-note strong {
+  color: var(--global-text-color);
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+}
+
+.cv-page-note span {
+  color: var(--global-text-color-light);
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.cv-frame {
+  background: #fff;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  display: block;
+  min-height: 78vh;
+  width: 100%;
+}
+
 .research-overview {
   border-left: 4px solid var(--global-theme-color);
   color: var(--global-text-color);
