@@ -1,6 +1,6 @@
 (function () {
   const publicationImageBase = "/assets/img/publications/";
-  const publicationImageVersion = "20260629";
+  const publicationImageVersion = "20260703";
 
   const publicationMetrics = [
     {
@@ -146,7 +146,7 @@
       lightbox.setAttribute("hidden", "");
       lightbox.innerHTML = `
         <div class="publication-lightbox__frame" role="dialog" aria-modal="true">
-          <button class="publication-lightbox__close" type="button" aria-label="Close preview">×</button>
+          <button class="publication-lightbox__close" type="button" aria-label="Close preview">&times;</button>
           <img class="publication-lightbox__image" alt="">
         </div>
       `;
@@ -164,6 +164,7 @@
     image.onload = () => {
       frame.style.setProperty("--publication-lightbox-width", image.naturalWidth);
       frame.style.setProperty("--publication-lightbox-height", image.naturalHeight);
+      frame.style.setProperty("--publication-lightbox-ratio", `${image.naturalWidth} / ${image.naturalHeight}`);
     };
     image.src = src;
     image.alt = label;
