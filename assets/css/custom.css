@@ -186,13 +186,20 @@ html[data-theme="light"] {
   line-height: 1.5;
 }
 
-.home-news--excerpt tr:nth-child(n + 11) {
-  display: none;
+.home-news .news-year-row th {
+  border-top: 1px solid var(--global-divider-color);
+  color: var(--global-theme-color);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 1.05rem 0 0.38rem;
+  white-space: normal;
+  width: auto;
 }
 
-.home-news--excerpt tr:nth-child(10) th,
-.home-news--excerpt tr:nth-child(10) td {
-  border-bottom: 1px solid var(--global-divider-color);
+.home-news tr:first-child.news-year-row th {
+  border-top: 0;
+  padding-top: 0.2rem;
 }
 
 .section-actions {
@@ -383,6 +390,7 @@ html[data-theme="light"] {
 }
 
 .publication-lightbox__frame {
+  aspect-ratio: var(--publication-lightbox-ratio, auto);
   background: transparent;
   border: 0;
   border-radius: 0;
@@ -394,7 +402,7 @@ html[data-theme="light"] {
 }
 
 .publication-lightbox__image {
-  border-radius: 8px;
+  border-radius: 0;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.38);
   display: block;
   height: auto;
@@ -580,6 +588,14 @@ html[data-theme="light"] {
   overflow-wrap: anywhere;
 }
 
+.teaching-footer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
 .teaching-impact {
   border-left: 3px solid var(--global-theme-color);
   margin: 0.85rem 0;
@@ -640,46 +656,6 @@ html[data-theme="light"] {
   background: var(--global-theme-color);
   color: #fff;
   text-decoration: none;
-}
-
-.cv-downloads {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  justify-content: flex-end;
-  margin: 0.2rem 0 1.4rem;
-}
-
-.cv-page-note {
-  background: linear-gradient(180deg, var(--shitao-accent-soft), transparent 72%), var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
-  border-left: 4px solid var(--global-theme-color);
-  border-radius: 8px;
-  margin: 0 0 1rem;
-  padding: 0.85rem 1rem;
-}
-
-.cv-page-note strong {
-  color: var(--global-text-color);
-  display: block;
-  font-size: 0.95rem;
-  margin-bottom: 0.2rem;
-}
-
-.cv-page-note span {
-  color: var(--global-text-color-light);
-  display: block;
-  font-size: 0.88rem;
-  line-height: 1.45;
-}
-
-.cv-frame {
-  background: #fff;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-  display: block;
-  min-height: 78vh;
-  width: 100%;
 }
 
 .research-overview {
@@ -754,6 +730,7 @@ html[data-theme="light"] {
 
 .research-figure img {
   aspect-ratio: 4 / 3;
+  cursor: zoom-in;
   display: block;
   object-fit: cover;
   width: 100%;
@@ -842,7 +819,4 @@ html[data-theme="light"] {
     justify-content: flex-start;
   }
 
-  .cv-downloads {
-    justify-content: flex-start;
-  }
 }
