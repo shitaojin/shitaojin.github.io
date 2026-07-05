@@ -2,10 +2,9 @@
 layout: page
 title: Collective intelligence in architectural programming
 description: Group decision-making and multi-agent reinforcement learning for early-stage programming of megaprojects and public infrastructure.
-img: assets/img/publications/collective-intelligence-architectural-programming.jpg
+img: assets/img/research/thumb-collective-intelligence.jpg
 importance: 1
 category: theme
-related_publications: true
 ---
 
 This theme positions architectural programming as a collaborative intelligence problem. Instead of treating a design brief

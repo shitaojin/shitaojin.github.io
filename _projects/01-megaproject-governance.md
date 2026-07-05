@@ -2,10 +2,9 @@
 layout: page
 title: Megaproject governance and public concerns
 description: Computational evidence for public concerns, stakeholder networks, risk, complexity, and governance in mega construction projects.
-img: assets/img/publications/public-concerns-mega-construction-projects.jpg
+img: assets/img/research/thumb-megaproject-governance.jpg
 importance: 2
 category: theme
-related_publications: true
 ---
 
 This theme studies mega construction projects as socio-technical systems. Such projects are not governed only by contracts
