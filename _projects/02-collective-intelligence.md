@@ -2,7 +2,7 @@
 layout: page
 title: Collective intelligence in architectural programming
 description: Group decision-making and multi-agent reinforcement learning for early-stage programming of megaprojects and public infrastructure.
-img: assets/img/research/thumb-collective-intelligence.jpg
+img: assets/img/publications/thumb-collective-intelligence.jpg
 importance: 1
 category: theme
 ---

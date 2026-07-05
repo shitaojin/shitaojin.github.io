@@ -2,10 +2,9 @@
 layout: page
 title: Higher-education learning environment evaluation
 description: Post-occupancy evaluation, active learning classrooms, academic libraries, and campus learning environments.
-img: assets/img/publications/Classroom-Perception-in-Higher-Education.jpg
+img: assets/img/publications/thumb-learning-environments.jpg
 importance: 4
 category: theme
-related_publications: true
 ---
 
 This theme examines how built environments support learning, satisfaction, engagement, and innovation in higher

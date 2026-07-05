@@ -2,7 +2,7 @@
 layout: page
 title: Megaproject governance and public concerns
 description: Computational evidence for public concerns, stakeholder networks, risk, complexity, and governance in mega construction projects.
-img: assets/img/research/thumb-megaproject-governance.jpg
+img: assets/img/publications/thumb-megaproject-governance.jpg
 importance: 2
 category: theme
 ---

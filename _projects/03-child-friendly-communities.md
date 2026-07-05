@@ -2,10 +2,9 @@
 layout: page
 title: Child-friendly communities and urban renewal
 description: Value-based programming, public perception analysis, and AI evaluation for child-friendly streets and inclusive community renewal.
-img: assets/img/publications/value-based-programming-childrens-wellbeing.jpg
+img: assets/img/publications/thumb-child-friendly-communities.jpg
 importance: 3
 category: theme
-related_publications: true
 ---
 
 This theme extends architectural programming from individual buildings to community-scale social infrastructure. The

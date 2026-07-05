@@ -2,10 +2,9 @@
 layout: page
 title: AI-enabled architectural teaching research
 description: AI-assisted architectural programming, design education, next-generation architectural creation, and pedagogical innovation.
-img: assets/img/publications/Enhancing-Architectural-Education-Through-Artificial-Intelligence.jpg
+img: assets/img/publications/thumb-ai-design-education.jpg
 importance: 5
 category: theme
-related_publications: true
 ---
 
 This theme studies AI not only as a design tool but also as a teaching medium. The work asks how architectural education
