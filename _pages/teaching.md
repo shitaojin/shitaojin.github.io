@@ -98,15 +98,17 @@ nav_order: 6
         <li>Connected LLM and AIGC workflows with task-book development, concept generation, and design assessment.</li>
         <li>Helped students prepare staged deliverables from site research to final design review.</li>
       </ul>
-      <div class="teaching-tags">
-        <span>Architectural programming</span>
-        <span>Child-friendly design</span>
-        <span>LLM and AIGC</span>
-        <span>Evidence-based studio</span>
+      <div class="teaching-footer">
+        <div class="teaching-tags">
+          <span>Architectural programming</span>
+          <span>Child-friendly design</span>
+          <span>LLM and AIGC</span>
+          <span>Evidence-based studio</span>
+        </div>
+        <a class="teaching-source" href="https://caup.tongji.edu.cn/40/52/c33400a344146/page.htm" target="_blank" rel="noopener">
+          Course feature
+        </a>
       </div>
-      <a class="teaching-source" href="https://caup.tongji.edu.cn/40/52/c33400a344146/page.htm" target="_blank" rel="noopener">
-        Course feature
-      </a>
     </div>
   </article>
 </section>

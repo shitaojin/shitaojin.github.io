@@ -6,16 +6,15 @@ nav: true
 nav_order: 2
 ---
 
-<div class="home-news">
+<div class="home-news home-news--grouped">
   <table>
     <tbody>
+      <tr class="news-year-row">
+        <th colspan="2">2026</th>
+      </tr>
       <tr>
         <th>May 18, 2026</th>
         <td>My paper, <a href="https://doi.org/10.1061/JCEMD4.COENG-17561">Dynamics Analysis of Public Concerns in Megaprojects</a>, is now online in <em>Journal of Construction Engineering and Management</em>.</td>
-      </tr>
-      <tr>
-        <th>Feb 24, 2026</th>
-        <td>My paper, <a href="https://doi.org/10.1061/JAEIED.AEENG-2153">Risk Identification and Assessment of Megaprojects</a>, is now online in <em>Journal of Architectural Engineering</em>.</td>
       </tr>
       <tr>
         <th>May 09, 2026</th>
@@ -30,8 +29,16 @@ nav_order: 2
         <td>My paper, <a href="https://doi.org/10.1016/j.foar.2026.02.005">Evolving Public Perceptions of the Renewal of Suzhou Neighborhood Centers</a>, in collaboration with my colleagues, is now online in <em>Frontiers of Architectural Research</em>.</td>
       </tr>
       <tr>
+        <th>Feb 24, 2026</th>
+        <td>My paper, <a href="https://doi.org/10.1061/JAEIED.AEENG-2153">Risk Identification and Assessment of Megaprojects</a>, is now online in <em>Journal of Architectural Engineering</em>.</td>
+      </tr>
+      <tr>
         <th>Feb 23, 2026</th>
         <td>My paper, <a href="https://doi.org/10.1371/journal.pone.0342430">A Deep Learning-Based Evaluation System for Child-Friendly Urban Streets</a>, in collaboration with my colleagues, is now online in <em>PLOS One</em>.</td>
+      </tr>
+
+      <tr class="news-year-row">
+        <th colspan="2">2025</th>
       </tr>
       <tr>
         <th>Nov 25, 2025</th>
@@ -57,6 +64,10 @@ nav_order: 2
         <th>Mar 11, 2025</th>
         <td>My paper, <a href="https://doi.org/10.1080/17452007.2025.2478021">The Application of Collective Intelligence in the Construction Industry</a>, is now online in <em>Architectural Engineering and Design Management</em>.</td>
       </tr>
+
+      <tr class="news-year-row">
+        <th colspan="2">2024</th>
+      </tr>
       <tr>
         <th>Nov 12, 2024</th>
         <td>My paper, <a href="https://doi.org/10.1108/ECAM-07-2024-0951">Measuring Complexity in Mega Construction Projects</a>, is now online in <em>Engineering, Construction and Architectural Management</em>.</td>
@@ -81,6 +92,10 @@ nav_order: 2
         <th>Jun 01, 2024</th>
         <td>My paper, <a href="https://doi.org/10.3390/buildings14061613">Enhancing Architectural Education Through Artificial Intelligence</a>, is now online in <em>Buildings</em>.</td>
       </tr>
+
+      <tr class="news-year-row">
+        <th colspan="2">2023</th>
+      </tr>
       <tr>
         <th>Sep 01, 2023</th>
         <td>Started a Ph.D. in Architecture at the College of Architecture and Urban Planning, Tongji University.</td>
@@ -88,6 +103,10 @@ nav_order: 2
       <tr>
         <th>Jun 01, 2023</th>
         <td>Received a Master of Architecture degree from the School of Architecture and Urban Planning, Huazhong University of Science and Technology.</td>
+      </tr>
+
+      <tr class="news-year-row">
+        <th colspan="2">2022</th>
       </tr>
       <tr>
         <th>Dec 31, 2022</th>
@@ -109,6 +128,10 @@ nav_order: 2
         <th>Apr 18, 2022</th>
         <td>My paper, <a href="https://doi.org/10.3390/su14084839">Evaluating Spatial Impacts on Active Learning Engagement</a>, is now online in <em>Sustainability</em>.</td>
       </tr>
+
+      <tr class="news-year-row">
+        <th colspan="2">2020</th>
+      </tr>
       <tr>
         <th>Sep 01, 2020</th>
         <td>Started a Master of Architecture degree at the School of Architecture and Urban Planning, Huazhong University of Science and Technology.</td>
@@ -116,6 +139,10 @@ nav_order: 2
       <tr>
         <th>Jun 01, 2020</th>
         <td>Received a Bachelor of Architecture degree from the School of Architecture and Planning, Jilin Jianzhu University.</td>
+      </tr>
+
+      <tr class="news-year-row">
+        <th colspan="2">2015</th>
       </tr>
       <tr>
         <th>Sep 01, 2015</th>
