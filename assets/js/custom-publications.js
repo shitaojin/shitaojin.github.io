@@ -1,6 +1,6 @@
 (function () {
   const publicationImageBase = "/assets/img/publications/";
-  const publicationImageVersion = "20260703";
+  const publicationImageVersion = "20260705";
 
   const publicationMetrics = [
     {
@@ -162,9 +162,11 @@
     const frame = lightbox.querySelector(".publication-lightbox__frame");
     const image = lightbox.querySelector(".publication-lightbox__image");
     image.onload = () => {
-      frame.style.setProperty("--publication-lightbox-width", image.naturalWidth);
-      frame.style.setProperty("--publication-lightbox-height", image.naturalHeight);
-      frame.style.setProperty("--publication-lightbox-ratio", `${image.naturalWidth} / ${image.naturalHeight}`);
+      const width = image.naturalWidth || 960;
+      const height = image.naturalHeight || 720;
+      frame.style.setProperty("--publication-lightbox-width", width);
+      frame.style.setProperty("--publication-lightbox-height", height);
+      frame.style.setProperty("--publication-lightbox-ratio", `${width} / ${height}`);
     };
     image.src = src;
     image.alt = label;
@@ -205,6 +207,34 @@
     });
   };
 
+  const prepareResearchFigures = () => {
+    document.querySelectorAll(".research-figure img").forEach((image) => {
+      if (image.dataset.researchPreviewReady === "true") return;
+
+      const source = image.currentSrc || image.getAttribute("src") || "";
+      const label = image.getAttribute("alt") || "Research image";
+      const cleanImage = image.cloneNode(true);
+      cleanImage.classList.remove("medium-zoom-image", "medium-zoom-image--opened");
+      cleanImage.dataset.researchPreviewReady = "true";
+      cleanImage.setAttribute("role", "button");
+      cleanImage.setAttribute("tabindex", "0");
+      cleanImage.setAttribute("aria-label", `Open research preview: ${label}`);
+
+      const open = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        openPublicationLightbox(source, label);
+      };
+
+      cleanImage.addEventListener("click", open, true);
+      cleanImage.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") open(event);
+      });
+
+      image.replaceWith(cleanImage);
+    });
+  };
+
   const markCorrespondingAuthors = (authorLine, names = []) => {
     if (!authorLine || authorLine.dataset.correspondingMarked === "true") return;
 
@@ -225,6 +255,7 @@
 
   const enhancePublications = () => {
     preparePublicationPreviews();
+    prepareResearchFigures();
     addCorrespondingNote();
 
     document.querySelectorAll("ol.bibliography > li").forEach((item) => {
