@@ -71,49 +71,71 @@ cv:
           <strong>The University of Melbourne, Melbourne, Australia.</strong> Visiting PhD Researcher, Department of Infrastructure Engineering, Faculty of Engineering and Information Technology, Sep. 2025 to present. Conducting joint PhD research on value management, stakeholder coordination, and complexity governance in megaprojects under the guidance of A/Prof Felix Kin Peng Hui and A/Prof Paulo Vaz Serra.
 
     Publications:
-      - bullet: >-
+      - date: 2026
+        summary: >-
           <strong>Jin, S.*</strong> (2026). <a href="https://doi.org/10.1061/JCEMD4.COENG-17561">Dynamics and influences analysis of public concerns in mega construction projects: An integrated topic and sentiment modeling approach</a>. <em>Journal of Construction Engineering and Management, 152</em>(8), 04026104.
-      - bullet: >-
+      - date: 2026
+        summary: >-
           <strong>Jin, S.*</strong>, &amp; Miao, X. (2026). <a href="https://doi.org/10.1061/JAEIED.AEENG-2153">Risk identification and assessment of mega construction projects in uncertain environments: A gray fuzzy group decision-making and Monte Carlo simulation method</a>. <em>Journal of Architectural Engineering, 32</em>(2), 04026010.
-      - bullet: >-
+      - date: 2026
+        summary: >-
           Tu, H., <strong>Jin, S.*</strong>, Miao, X., Zhou, C., &amp; Shi, Y. (2026). <a href="https://doi.org/10.1016/j.foar.2026.02.012">A value-based programming framework for enhancing children's well-being in urban communities</a>. <em>Frontiers of Architectural Research</em>.
-      - bullet: >-
+      - date: 2026
+        summary: >-
           Deng, Y., <strong>Jin, S.</strong>, &amp; Zhu, X. (2026). <a href="https://doi.org/10.1016/j.foar.2026.02.005">Evolving public perceptions of the renewal of Suzhou neighborhood centers: An integrated sentiment and topic modeling framework</a>. <em>Frontiers of Architectural Research</em>.
-      - bullet: >-
+      - date: 2026
+        summary: >-
           Tu, H., Miao, X., &amp; <strong>Jin, S.</strong> (2026). <a href="https://doi.org/10.1371/journal.pone.0342430">A deep learning-based evaluation system for child-friendly urban streets integrating abstract and concrete features: A case of Shanghai urban street</a>. <em>PLOS One, 21</em>(2), e0342430.
-      - bullet: >-
+      - date: 2026
+        summary: >-
           <strong>Jin, S.*</strong> (2026). <a href="https://doi.org/10.1108/ECAM-04-2024-0495">Current status and trends of megaproject research: Bibliometric and text mining analysis</a>. <em>Engineering, Construction and Architectural Management, 33</em>(6), 4543-4573.
-      - bullet: >-
+      - date: 2026
+        summary: >-
           <strong>Jin, S.*</strong> (2026). <a href="https://doi.org/10.1108/ECAM-07-2024-0951">Measuring complexity in mega construction projects: Fuzzy comprehensive evaluation and grey relational analysis</a>. <em>Engineering, Construction and Architectural Management, 33</em>(1), 284-317.
-      - bullet: >-
+      - date: 2025
+        summary: >-
           <strong>Jin, S.*</strong>, &amp; Deng, Y. (2025). <a href="https://doi.org/10.1108/ECAM-01-2025-0097">Identification and evaluation of key stakeholders in mega construction projects: Social network analysis and multi-criteria decision-making</a>. <em>Engineering, Construction and Architectural Management</em>, 1-38.
-      - bullet: >-
+      - date: 2025
+        summary: >-
           <strong>Jin, S.*</strong> (2025). <a href="https://doi.org/10.1108/ECAM-04-2024-0408">Interdisciplinary perspective on architectural programming: Current status and future directions</a>. <em>Engineering, Construction and Architectural Management, 32</em>(11), 7332-7372.
-      - bullet: >-
+      - date: 2025
+        summary: >-
           <strong>Jin, S.*</strong> (2025). <a href="https://doi.org/10.1080/17452007.2025.2478021">The application of collective intelligence in the construction industry: A review of the current state, challenges, and opportunities</a>. <em>Architectural Engineering and Design Management, 21</em>(5), 1091-1116.
-      - bullet: >-
+      - date: 2025
+        summary: >-
           <strong>Jin, S.</strong>, &amp; Tu, H.* (2025). <a href="https://doi.org/10.1016/j.foar.2024.07.010">Current status and research progress in architectural programming: A comparative analysis between China and other countries</a>. <em>Frontiers of Architectural Research, 14</em>(2), 487-509.
-      - bullet: >-
+      - date: 2025
+        summary: >-
           Tu, H., Miao, X., <strong>Jin, S.</strong>, Yang, J., Miao, X., &amp; Qi, J. (2025). <a href="https://doi.org/10.3390/buildings15132291">Deep learning-based systems for evaluating and enhancing child-friendliness of urban streets: A case of Shanghai urban street</a>. <em>Buildings, 15</em>(13), 2291.
-      - bullet: >-
+      - date: 2025
+        summary: >-
           Tu, H., <strong>Jin, S.</strong>, Zhang, T., Li, J., &amp; Zhou, C. (2025). <a href="https://doi.org/10.19875/j.cnki.jzywh.2025.11.088">Exploration of the applications of next-generation artificial intelligence in architectural creation</a>. <em>Architecture and Culture</em>, (11), 289-291.
-      - bullet: >-
+      - date: 2024
+        summary: >-
           <strong>Jin, S.</strong>, Tu, H.*, Li, J., Fang, Y., Zhang, Q., Xu, F., Liu, K., &amp; Lin, Y. (2024). <a href="https://doi.org/10.3390/buildings14061613">Enhancing architectural education through artificial intelligence: A case study of an AI-assisted architectural programming and design course</a>. <em>Buildings, 14</em>(6), 1613.
-      - bullet: >-
+      - date: 2024
+        summary: >-
           Tu, H., &amp; <strong>Jin, S.*</strong> (2024). <a href="https://doi.org/10.1108/ECAM-03-2024-0394">A group decision-making model for architectural programming in megaprojects</a>. <em>Engineering, Construction and Architectural Management, 31</em>(13), 342-368.
-      - bullet: >-
+      - date: 2022
+        summary: >-
           <strong>Jin, S.</strong>, &amp; Peng, L. (2022). <a href="https://doi.org/10.3389/fpsyg.2022.941285">Classroom perception in higher education: The impact of spatial factors on student satisfaction in lecture versus active learning classrooms</a>. <em>Frontiers in Psychology, 13</em>, 941285.
-      - bullet: >-
+      - date: 2022
+        summary: >-
           Peng, L., <strong>Jin, S.</strong>, Deng, Y., &amp; Gong, Y. (2022). <a href="https://doi.org/10.3390/su14148578">Students' perceptions of active learning classrooms from an informal learning perspective: Building a full-time sustainable learning environment in higher education</a>. <em>Sustainability, 14</em>(14), 8578.
-      - bullet: >-
+      - date: 2022
+        summary: >-
           Peng, L., Wei, W., Fan, W., <strong>Jin, S.</strong>, &amp; Liu, Y. (2022). <a href="https://doi.org/10.3390/buildings12050682">Student experience and satisfaction in academic libraries: A comparative study among three universities in Wuhan</a>. <em>Buildings, 12</em>(5), 682.
-      - bullet: >-
+      - date: 2022
+        summary: >-
           Peng, L., Deng, Y., &amp; <strong>Jin, S.</strong> (2022). <a href="https://doi.org/10.3390/su14084839">The evaluation of active learning classrooms: Impact of spatial factors on students' learning experience and learning engagement</a>. <em>Sustainability, 14</em>(8), 4839.
-      - bullet: >-
+      - date: 2022
+        summary: >-
           Peng, L., Fan, W., &amp; <strong>Jin, S.</strong> (2022). <a href="https://doi.org/10.12069/j.na.202206098">Analysis of campus learning environment elements for promoting innovative talent cultivation: A case study of campus space planning in two innovative research universities</a>. <em>New Architecture</em>, (6), 98-103.
-      - bullet: >-
+      - date: 2026
+        summary: >-
           <strong>Jin, S.*</strong>, Deng, Y., &amp; Tu, H. (2026). <a href="https://papers.cumincad.org/data/works/att/caadria2026_268.pdf">Collective intelligence in architectural programming: Multi-agent reinforcement learning for optimization in mega transportation projects</a>. In <em>Proceedings of the 31st International Conference of the Association for Computer-Aided Architectural Design Research in Asia (CAADRIA)</em> (Vol. 1, pp. 693-702).
-      - bullet: >-
+      - date: 2024
+        summary: >-
           <strong>Jin, S.*</strong>, Deng, Y., &amp; Tu, H. (2024). <a href="https://doi.org/10.47472/C6qUucJ8">Reprogramming urban communities: Enhancing children's well-being through a value-based programming approach in inclusive planning and design</a>. In <em>Proceedings of the 60th ISOCARP World Planning Congress</em>, Siena, Italy.
 
     Teaching:
@@ -154,16 +176,61 @@ cv:
           <strong>Wuhan Hechuang Architectural Design Co., Ltd., Wuhan, China.</strong> Architectural Design Intern, Jun. 2019 to Aug. 2019. Supported campus planning and architectural design for Wuhan Optics Valley No. 13 Junior High School.
 
     Skills:
-      - bullet: "<strong>Computational research:</strong> Python, machine learning, deep learning, natural language processing, multi-agent reinforcement learning, LLM fine-tuning, and AIGC workflows."
-      - bullet: "<strong>Decision and text analytics:</strong> Bibliometrics, systematic review, LDA topic modeling, sentiment analysis, social network analysis, entropy weight, fuzzy TOPSIS, fuzzy comprehensive evaluation, grey relational analysis, Monte Carlo simulation, and post-occupancy evaluation."
-      - bullet: "<strong>Architecture and design software:</strong> Rhino, Grasshopper, Revit, AutoCAD, SketchUp, Photoshop, Illustrator, InDesign, Premiere Pro, ComfyUI, SPSS, and NVivo."
-      - bullet: "<strong>Academic writing and service:</strong> Systematic review, scientometrics, journal peer review, proposal writing, research presentation, and bilingual academic communication."
+      - name: Computational research
+        keywords:
+          - Python
+          - machine learning
+          - deep learning
+          - natural language processing
+          - multi-agent reinforcement learning
+          - LLM fine-tuning
+          - AIGC workflows
+      - name: Decision and text analytics
+        keywords:
+          - bibliometrics
+          - systematic review
+          - LDA topic modeling
+          - sentiment analysis
+          - social network analysis
+          - entropy weight
+          - fuzzy TOPSIS
+          - fuzzy comprehensive evaluation
+          - grey relational analysis
+          - Monte Carlo simulation
+          - post-occupancy evaluation
+      - name: Architecture and design software
+        keywords:
+          - Rhino
+          - Grasshopper
+          - Revit
+          - AutoCAD
+          - SketchUp
+          - Photoshop
+          - Illustrator
+          - InDesign
+          - Premiere Pro
+          - ComfyUI
+          - SPSS
+          - NVivo
+      - name: Academic writing and service
+        keywords:
+          - systematic review
+          - scientometrics
+          - journal peer review
+          - proposal writing
+          - research presentation
+          - bilingual academic communication
 
     Languages:
-      - bullet: "<strong>Chinese:</strong> Native speaker."
-      - bullet: "<strong>English:</strong> Fluent academic and professional working proficiency; IELTS 7.0."
+      - name: Chinese
+        summary: Native speaker.
+      - name: English
+        summary: Fluent academic and professional working proficiency; IELTS 7.0.
 
     References:
-      - bullet: "<strong>Prof. Huijun Tu</strong>, doctoral supervisor, College of Architecture and Urban Planning, Tongji University."
-      - bullet: "<strong>A/Prof Felix Kin Peng Hui</strong>, joint research advisor, Department of Infrastructure Engineering, Faculty of Engineering and Information Technology, The University of Melbourne."
-      - bullet: "<strong>A/Prof Paulo Vaz Serra</strong>, joint research advisor, The University of Melbourne."
+      - name: Prof. Huijun Tu
+        reference: Doctoral supervisor, College of Architecture and Urban Planning, Tongji University.
+      - name: A/Prof Felix Kin Peng Hui
+        reference: Joint research advisor, Department of Infrastructure Engineering, Faculty of Engineering and Information Technology, The University of Melbourne.
+      - name: A/Prof Paulo Vaz Serra
+        reference: Joint research advisor, The University of Melbourne.
