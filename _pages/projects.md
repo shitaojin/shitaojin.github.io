@@ -30,7 +30,25 @@ horizontal: true
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
       {% for project in sorted_projects %}
-        {% include projects_horizontal.liquid %}
+        <div class="col mb-4">
+          <a
+            class="research-theme-card-link"
+            href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
+            aria-label="Open research theme: {{ project.title | escape }}"
+          >
+            <article class="card h-100 hoverable research-theme-card">
+              {% if project.img %}
+                <figure class="research-theme-card__media">
+                  <img src="{{ project.img | relative_url }}" alt="{{ project.title | escape }} thumbnail" loading="lazy">
+                </figure>
+              {% endif %}
+              <div class="card-body research-theme-card__body">
+                <h3 class="card-title">{{ project.title }}</h3>
+                <p class="card-text">{{ project.description }}</p>
+              </div>
+            </article>
+          </a>
+        </div>
       {% endfor %}
     </div>
   </div>
