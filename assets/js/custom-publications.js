@@ -1,6 +1,6 @@
 (function () {
   const publicationImageBase = "/assets/img/publications/";
-  const publicationImageVersion = "20260705";
+  const publicationImageVersion = "20260706";
 
   const publicationMetrics = [
     {
@@ -177,7 +177,7 @@
   };
 
   const preparePublicationPreviews = () => {
-    document.querySelectorAll(".publications img.preview").forEach((image) => {
+    document.querySelectorAll(".publications img.preview, .research-reference-list img.preview").forEach((image) => {
       if (image.dataset.publicationPreviewReady === "true") return;
 
       const filename = previewFilename(image);
