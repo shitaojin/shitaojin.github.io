@@ -37,7 +37,7 @@ In addition to research, I have architectural practice and project management ex
 
 <div class="profile-metrics">
   <div class="metric-card">
-    <strong>{{ site.data.scholar.citations | default: 298 }}</strong>
+    <strong>{{ site.data.scholar.citations | default: 301 }}</strong>
     <span>Google Scholar citations</span>
   </div>
   <div class="metric-card">
@@ -49,7 +49,7 @@ In addition to research, I have architectural practice and project management ex
     <span>journal papers / conference papers</span>
   </div>
   <div class="metric-card">
-    <strong>164</strong>
+    <strong>171</strong>
     <span>verified peer reviews</span>
   </div>
 </div>
@@ -91,7 +91,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
       </tr>
       <tr>
         <th>May 09, 2026</th>
-        <td>I delivered an invited <a href="https://papers.cumincad.org/data/works/att/caadria2026_268.pdf">presentation</a> at the <a href="https://www.caadria2026.org/">31st International Conference on CAADRIA</a>, NYCU, Hsinchu, Taiwan.</td>
+        <td>I delivered an invited <a href="https://papers.cumincad.org/data/works/att/caadria2026_268.pdf">presentation</a> at the <a href="https://www.caadria2026.org/">31st International Conference on CAADRIA</a>, NYCU, Hsinchu, Taiwan, China.</td>
       </tr>
       <tr>
         <th>Apr 18, 2026</th>
