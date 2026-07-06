@@ -2,7 +2,7 @@
 layout: page
 title: Higher-education learning environment evaluation
 description: Post-occupancy evaluation, active learning classrooms, academic libraries, and campus learning environments.
-img: assets/img/publications/thumb-learning-environments.jpg
+img: assets/img/research/thumb-learning-environments.jpg
 importance: 4
 category: theme
 ---
@@ -10,6 +10,11 @@ category: theme
 This theme examines how built environments support learning, satisfaction, engagement, and innovation in higher
 education. It grew from my master's research and continues to inform my broader interest in evidence-based design
 evaluation and human-centered architectural programming.
+
+<figure class="research-figure research-hero-figure">
+  <img src="/assets/img/research/thumb-learning-environments.jpg" alt="Higher-education learning environment evaluation">
+  <figcaption>Theme illustration for higher-education learning environment evaluation. Image credit: &copy; Peter Aaron/OTTO.</figcaption>
+</figure>
 
 <div class="research-focus-grid">
   <div class="research-focus-card">
@@ -64,14 +69,25 @@ architectural programming and AI-supported design decision-making.
 
 ## References
 
-<div class="research-citation-seeds" aria-hidden="true">
-  {% cite jin2022classroom_perception %}
-  {% cite peng2022informal_learning_alc %}
-  {% cite peng2022academic_libraries %}
-  {% cite peng2022active_learning_classrooms %}
-  {% cite peng2022campus_learning_environment %}
-</div>
-
-<div class="research-reference-list">
-  {% bibliography --cited %}
+<div class="research-publication-links">
+  <a class="research-publication-link" href="/publications/#jin2022classroom_perception">
+    <span class="research-publication-link__abbr">Front Psychol</span>
+    <span><strong>Classroom Perception in Higher Education</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#peng2022informal_learning_alc">
+    <span class="research-publication-link__abbr">Sustainability</span>
+    <span><strong>Students' Perceptions of Active Learning Classrooms from an Informal Learning Perspective</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#peng2022academic_libraries">
+    <span class="research-publication-link__abbr">Buildings</span>
+    <span><strong>Student Experience and Satisfaction in Academic Libraries</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#peng2022active_learning_classrooms">
+    <span class="research-publication-link__abbr">Sustainability</span>
+    <span><strong>The Evaluation of Active Learning Classrooms</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#peng2022campus_learning_environment">
+    <span class="research-publication-link__abbr">New Archit</span>
+    <span><strong>Analysis of Campus Learning Environment Elements for Promoting Innovative Talent Cultivation</strong><small>View in Publications</small></span>
+  </a>
 </div>

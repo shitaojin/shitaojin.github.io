@@ -2,7 +2,7 @@
 layout: page
 title: Child-friendly communities and urban renewal
 description: Value-based programming, public perception analysis, and AI evaluation for child-friendly streets and inclusive community renewal.
-img: assets/img/publications/thumb-child-friendly-communities.jpg
+img: assets/img/research/thumb-child-friendly-communities.jpg
 importance: 3
 category: theme
 ---
@@ -11,6 +11,11 @@ This theme extends architectural programming from individual buildings to commun
 central question is how children, residents, and everyday users can be represented in urban renewal decisions, especially
 when their needs are distributed across streets, neighborhood centers, public spaces, safety conditions, and emotional
 experience.
+
+<figure class="research-figure research-hero-figure">
+  <img src="/assets/img/research/thumb-child-friendly-communities.jpg" alt="Child-friendly communities and urban renewal">
+  <figcaption>Theme illustration for child-friendly communities and urban renewal. Image credit: &copy; Bing Lu.</figcaption>
+</figure>
 
 <div class="research-focus-grid">
   <div class="research-focus-card">
@@ -66,14 +71,25 @@ serve inclusive planning.
 
 ## References
 
-<div class="research-citation-seeds" aria-hidden="true">
-  {% cite tu2026value_based_programming %}
-  {% cite deng2026suzhou_neighborhood_centers %}
-  {% cite tu2026child_friendly_streets_plos %}
-  {% cite tu2025deep_learning_child_friendly %}
-  {% cite jin2024reprogramming_urban_communities %}
-</div>
-
-<div class="research-reference-list">
-  {% bibliography --cited %}
+<div class="research-publication-links">
+  <a class="research-publication-link" href="/publications/#tu2026value_based_programming">
+    <span class="research-publication-link__abbr">FoAR</span>
+    <span><strong>A Value-Based Programming Framework for Enhancing Children's Well-Being in Urban Communities</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#deng2026suzhou_neighborhood_centers">
+    <span class="research-publication-link__abbr">FoAR</span>
+    <span><strong>Evolving Public Perceptions of the Renewal of Suzhou Neighborhood Centers</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#tu2026child_friendly_streets_plos">
+    <span class="research-publication-link__abbr">PLOS One</span>
+    <span><strong>A Deep Learning-Based Evaluation System for Child-Friendly Urban Streets</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#tu2025deep_learning_child_friendly">
+    <span class="research-publication-link__abbr">Buildings</span>
+    <span><strong>Deep Learning-Based Systems for Evaluating and Enhancing Child-Friendliness of Urban Streets</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#jin2024reprogramming_urban_communities">
+    <span class="research-publication-link__abbr">ISOCARP</span>
+    <span><strong>Reprogramming Urban Communities</strong><small>View in Publications</small></span>
+  </a>
 </div>

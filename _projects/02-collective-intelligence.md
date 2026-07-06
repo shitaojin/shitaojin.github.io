@@ -2,7 +2,7 @@
 layout: page
 title: Collective intelligence in architectural programming
 description: Group decision-making and multi-agent reinforcement learning for early-stage programming of megaprojects and public infrastructure.
-img: assets/img/publications/thumb-collective-intelligence.jpg
+img: assets/img/research/thumb-collective-intelligence.jpg
 importance: 1
 category: theme
 ---
@@ -15,6 +15,11 @@ The intellectual starting point is that megaproject programming is both a design
 brief must coordinate functional requirements, spatial performance, construction feasibility, public value, risk
 exposure, and long-term operation. My work therefore connects architectural programming theory with collective
 intelligence, group decision-making, and multi-agent reinforcement learning.
+
+<figure class="research-figure research-hero-figure">
+  <img src="/assets/img/research/thumb-collective-intelligence.jpg" alt="Collective intelligence in architectural programming">
+  <figcaption>Theme illustration for collective intelligence in architectural programming. Image credit: &copy; SOM.</figcaption>
+</figure>
 
 <div class="research-focus-grid">
   <div class="research-focus-card">
@@ -73,14 +78,25 @@ and social infrastructure.
 
 ## References
 
-<div class="research-citation-seeds" aria-hidden="true">
-  {% cite tu2024group_decision_making %}
-  {% cite jin2026collective_intelligence_caad %}
-  {% cite jin2025collective_intelligence_review %}
-  {% cite jin2025architectural_programming_interdisciplinary %}
-  {% cite jin2025architectural_programming_comparative %}
-</div>
-
-<div class="research-reference-list">
-  {% bibliography --cited %}
+<div class="research-publication-links">
+  <a class="research-publication-link" href="/publications/#tu2024group_decision_making">
+    <span class="research-publication-link__abbr">ECAM</span>
+    <span><strong>A Group Decision-Making Model for Architectural Programming in Megaprojects</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#jin2026collective_intelligence_caad">
+    <span class="research-publication-link__abbr">CAADRIA</span>
+    <span><strong>Collective Intelligence in Architectural Programming</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#jin2025collective_intelligence_review">
+    <span class="research-publication-link__abbr">AEDM</span>
+    <span><strong>The Application of Collective Intelligence in the Construction Industry</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#jin2025architectural_programming_interdisciplinary">
+    <span class="research-publication-link__abbr">ECAM</span>
+    <span><strong>Interdisciplinary Perspective on Architectural Programming</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#jin2025architectural_programming_comparative">
+    <span class="research-publication-link__abbr">FoAR</span>
+    <span><strong>Current Status and Research Progress in Architectural Programming</strong><small>View in Publications</small></span>
+  </a>
 </div>

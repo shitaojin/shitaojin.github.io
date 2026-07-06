@@ -2,7 +2,7 @@
 layout: page
 title: Megaproject governance and public concerns
 description: Computational evidence for public concerns, stakeholder networks, risk, complexity, and governance in mega construction projects.
-img: assets/img/publications/thumb-megaproject-governance.jpg
+img: assets/img/research/thumb-megaproject-governance.jpg
 importance: 2
 category: theme
 ---
@@ -11,6 +11,11 @@ This theme studies mega construction projects as socio-technical systems. Such p
 and engineering schedules; they are also shaped by public concerns, stakeholder power relations, risk perception,
 uncertain environments, and evolving social legitimacy. My research uses computational methods to turn these complex and
 often fragmented signals into decision evidence.
+
+<figure class="research-figure research-hero-figure">
+  <img src="/assets/img/research/thumb-megaproject-governance.jpg" alt="Megaproject governance and public concerns">
+  <figcaption>Theme illustration for megaproject governance and public concerns. Image credit: &copy; CreatAR_Images.</figcaption>
+</figure>
 
 <div class="research-focus-grid">
   <div class="research-focus-card">
@@ -67,14 +72,25 @@ management and policy-oriented research.
 
 ## References
 
-<div class="research-citation-seeds" aria-hidden="true">
-  {% cite jin2026public_concerns_mcp %}
-  {% cite jin2026risk_identification_mcp %}
-  {% cite jin2026megaproject_bibliometric %}
-  {% cite jin2026complexity_mcp %}
-  {% cite jin2025stakeholders_mcp %}
-</div>
-
-<div class="research-reference-list">
-  {% bibliography --cited %}
+<div class="research-publication-links">
+  <a class="research-publication-link" href="/publications/#jin2026public_concerns_mcp">
+    <span class="research-publication-link__abbr">JCEM</span>
+    <span><strong>Dynamics and Influences Analysis of Public Concerns in Mega Construction Projects</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#jin2026risk_identification_mcp">
+    <span class="research-publication-link__abbr">JAE</span>
+    <span><strong>Risk Identification and Assessment of Mega Construction Projects in Uncertain Environments</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#jin2026megaproject_bibliometric">
+    <span class="research-publication-link__abbr">ECAM</span>
+    <span><strong>Current Status and Trends of Megaproject Research</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#jin2026complexity_mcp">
+    <span class="research-publication-link__abbr">ECAM</span>
+    <span><strong>Measuring Complexity in Mega Construction Projects</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#jin2025stakeholders_mcp">
+    <span class="research-publication-link__abbr">ECAM</span>
+    <span><strong>Identification and Evaluation of Key Stakeholders in Mega Construction Projects</strong><small>View in Publications</small></span>
+  </a>
 </div>

@@ -2,7 +2,7 @@
 layout: page
 title: AI-enabled architectural teaching research
 description: AI-assisted architectural programming, design education, next-generation architectural creation, and pedagogical innovation.
-img: assets/img/publications/thumb-ai-design-education.jpg
+img: assets/img/research/thumb-ai-design-education.jpg
 importance: 5
 category: theme
 ---
@@ -10,6 +10,11 @@ category: theme
 This theme studies AI not only as a design tool but also as a teaching medium. The work asks how architectural education
 can use AI to support problem seeking, information organization, programming, concept generation, design iteration, and
 evaluation while preserving critical judgment and design responsibility.
+
+<figure class="research-figure research-hero-figure">
+  <img src="/assets/img/research/thumb-ai-design-education.jpg" alt="AI-enabled architectural teaching research">
+  <figcaption>Theme illustration for AI-enabled architectural teaching research. Image credit: &copy; Fan Xu.</figcaption>
+</figure>
 
 <div class="research-focus-grid">
   <div class="research-focus-card">
@@ -64,11 +69,13 @@ development. It also creates a research path for scalable AI-assisted architectu
 
 ## References
 
-<div class="research-citation-seeds" aria-hidden="true">
-  {% cite jin2024ai_architecture_education %}
-  {% cite tu2025next_generation_ai_architectural_creation %}
-</div>
-
-<div class="research-reference-list">
-  {% bibliography --cited %}
+<div class="research-publication-links">
+  <a class="research-publication-link" href="/publications/#jin2024ai_architecture_education">
+    <span class="research-publication-link__abbr">Buildings</span>
+    <span><strong>Enhancing Architectural Education Through Artificial Intelligence</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#tu2025next_generation_ai_architectural_creation">
+    <span class="research-publication-link__abbr">Archit Cult</span>
+    <span><strong>Exploration of the Applications of Next-Generation Artificial Intelligence in Architectural Creation</strong><small>View in Publications</small></span>
+  </a>
 </div>
