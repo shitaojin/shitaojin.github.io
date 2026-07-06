@@ -101,7 +101,7 @@
     {
       title: "Analysis of Campus Learning Environment Elements for Promoting Innovative Talent Cultivation",
       info: "CNKI, IF=1.3",
-      corresponding: ["Lei Peng"],
+      corresponding: ["Shitao Jin"],
     },
     {
       title: "Collective Intelligence in Architectural Programming",
