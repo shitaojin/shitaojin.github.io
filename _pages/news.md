@@ -13,6 +13,10 @@ nav_order: 2
         <th colspan="2">2026</th>
       </tr>
       <tr>
+        <th>Jul 09, 2026</th>
+        <td>I delivered an invited presentation at the <a href="https://archmanu.com/digitalfutures-cdrf-2026/">International Conference on Computational Design and Robotic Fabrication</a>, UNSW, Sydney, Australia.</td>
+      </tr>
+      <tr>
         <th>May 18, 2026</th>
         <td>My paper, <a href="https://doi.org/10.1061/JCEMD4.COENG-17561">Dynamics Analysis of Public Concerns in Megaprojects</a>, is now online in <em>Journal of Construction Engineering and Management</em>.</td>
       </tr>
@@ -27,6 +31,10 @@ nav_order: 2
       <tr>
         <th>Apr 10, 2026</th>
         <td>My paper, <a href="https://doi.org/10.1016/j.foar.2026.02.005">Evolving Public Perceptions of the Renewal of Suzhou Neighborhood Centers</a>, in collaboration with my colleagues, is now online in <em>Frontiers of Architectural Research</em>.</td>
+      </tr>
+      <tr>
+        <th>Mar 20, 2026</th>
+        <td>I delivered an invited presentation at the <a href="https://cisummit-crc.asce.org/">CI &amp; CRC Joint Conference</a>, San Antonio, Texas, USA.</td>
       </tr>
       <tr>
         <th>Feb 24, 2026</th>

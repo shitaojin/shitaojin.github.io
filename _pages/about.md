@@ -37,7 +37,7 @@ In addition to research, I have architectural practice and project management ex
 
 <div class="profile-metrics">
   <div class="metric-card">
-    <strong>{{ site.data.scholar.citations | default: 301 }}</strong>
+    <strong>{{ site.data.scholar.citations | default: 320 }}</strong>
     <span>Google Scholar citations</span>
   </div>
   <div class="metric-card">
@@ -49,7 +49,7 @@ In addition to research, I have architectural practice and project management ex
     <span>journal papers / conference papers</span>
   </div>
   <div class="metric-card">
-    <strong>171</strong>
+    <strong>183</strong>
     <span>verified peer reviews</span>
   </div>
 </div>
@@ -69,7 +69,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
   </div>
   <div class="highlight-card">
     <strong>Verified peer review</strong>
-    <span>Recognized reviewer on Web of Science, with 164 verified reviews across 10 international journals.</span>
+    <span>Recognized reviewer on Web of Science, with 183 verified reviews across 11 international journals.</span>
   </div>
   <div class="highlight-card">
     <strong>Publication venues</strong>
@@ -86,6 +86,10 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
         <th colspan="2">2026</th>
       </tr>
       <tr>
+        <th>Jul 09, 2026</th>
+        <td>I delivered an invited presentation at the <a href="https://archmanu.com/digitalfutures-cdrf-2026/">International Conference on Computational Design and Robotic Fabrication</a>, UNSW, Sydney, Australia.</td>
+      </tr>
+      <tr>
         <th>May 18, 2026</th>
         <td>My paper, <a href="https://doi.org/10.1061/JCEMD4.COENG-17561">Dynamics Analysis of Public Concerns in Megaprojects</a>, is now online in <em>Journal of Construction Engineering and Management</em>.</td>
       </tr>
@@ -100,6 +104,10 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
       <tr>
         <th>Apr 10, 2026</th>
         <td>My paper, <a href="https://doi.org/10.1016/j.foar.2026.02.005">Evolving Public Perceptions of the Renewal of Suzhou Neighborhood Centers</a>, in collaboration with my colleagues, is now online in <em>Frontiers of Architectural Research</em>.</td>
+      </tr>
+      <tr>
+        <th>Mar 20, 2026</th>
+        <td>I delivered an invited presentation at the <a href="https://cisummit-crc.asce.org/">CI &amp; CRC Joint Conference</a>, San Antonio, Texas, USA.</td>
       </tr>
       <tr>
         <th>Feb 24, 2026</th>
@@ -119,14 +127,6 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
       <tr>
         <th>Nov 05, 2025</th>
         <td>My paper, <a href="https://doi.org/10.1108/ECAM-01-2025-0097">Identification and Evaluation of Key Stakeholders in Megaprojects</a>, is now online in <em>Engineering, Construction and Architectural Management</em>.</td>
-      </tr>
-      <tr>
-        <th>Sep 06, 2025</th>
-        <td>Started visiting Ph.D. research at The University of Melbourne, Department of Infrastructure Engineering, Faculty of Engineering and Information Technology.</td>
-      </tr>
-      <tr>
-        <th>Jun 29, 2025</th>
-        <td>My paper, <a href="https://doi.org/10.3390/buildings15132291">Deep Learning-Based Systems for Child-Friendliness of Urban Streets</a>, in collaboration with my colleagues, is now online in <em>Buildings</em>.</td>
       </tr>
     </tbody>
   </table>
