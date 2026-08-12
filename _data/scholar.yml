@@ -1,8 +1,8 @@
 profile: https://scholar.google.com/citations?user=T9kDpQoAAAAJ&hl=en
 author_id: T9kDpQoAAAAJ
 source: Google Scholar
-citations: 301
+citations: 320
 h_index: 8
 i10_index: 7
-updated: 2026-07-07
-update_mode: GitHub Actions scheduled sync via SerpApi Google Scholar Author API
+updated: 2026-08-12
+update_mode: Manual verification against the public Google Scholar profile
