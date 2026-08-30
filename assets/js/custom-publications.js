@@ -1,6 +1,6 @@
 (function () {
   const publicationImageBase = "/assets/img/publications/";
-  const publicationImageVersion = "20260706";
+  const publicationImageVersion = "20260830";
 
   const publicationMetrics = [
     {
@@ -105,6 +105,14 @@
     },
     {
       title: "Collective Intelligence in Architectural Programming",
+      corresponding: ["Shitao Jin"],
+    },
+    {
+      title: "Enabling Intelligent Collaboration in Architectural Programming",
+      corresponding: ["Shitao Jin"],
+    },
+    {
+      title: "Collective Intelligence for Architectural Programming in Mega Transportation Projects",
       corresponding: ["Shitao Jin"],
     },
     {
