@@ -34,7 +34,7 @@ nav_order: 2
       </tr>
       <tr>
         <th>Mar 20, 2026</th>
-        <td>I delivered an invited presentation at the <a href="https://cisummit-crc.asce.org/">CI &amp; CRC Joint Conference</a>, San Antonio, Texas, USA.</td>
+        <td>I delivered an invited <a href="https://doi.org/10.1061/9780784486962.059">presentation</a> at the <a href="https://cisummit-crc.asce.org/">CI &amp; CRC Joint Conference</a>, San Antonio, Texas, USA.</td>
       </tr>
       <tr>
         <th>Feb 24, 2026</th>

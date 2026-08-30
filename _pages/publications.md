@@ -15,7 +15,7 @@ nav_order: 4
     <span>journal articles</span>
   </div>
   <div class="publication-summary-card">
-    <strong>2</strong>
+    <strong>4</strong>
     <span>conference papers</span>
   </div>
 </div>

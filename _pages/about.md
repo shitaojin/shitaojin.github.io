@@ -45,7 +45,7 @@ In addition to research, I have architectural practice and project management ex
     <span>h-index / i10-index</span>
   </div>
   <div class="metric-card">
-    <strong>20 / 2</strong>
+    <strong>20 / 4</strong>
     <span>journal papers / conference papers</span>
   </div>
   <div class="metric-card">
@@ -107,7 +107,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
       </tr>
       <tr>
         <th>Mar 20, 2026</th>
-        <td>I delivered an invited presentation at the <a href="https://cisummit-crc.asce.org/">CI &amp; CRC Joint Conference</a>, San Antonio, Texas, USA.</td>
+        <td>I delivered an invited <a href="https://doi.org/10.1061/9780784486962.059">presentation</a> at the <a href="https://cisummit-crc.asce.org/">CI &amp; CRC Joint Conference</a>, San Antonio, Texas, USA.</td>
       </tr>
       <tr>
         <th>Feb 24, 2026</th>
