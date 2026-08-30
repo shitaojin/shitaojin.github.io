@@ -21,7 +21,7 @@ cv:
   sections:
     Profile:
       - bullet: "PhD candidate in Architecture at Tongji University and visiting PhD researcher at The University of Melbourne, working across architectural programming, collective intelligence, megaproject governance, and AI-supported design education."
-      - bullet: "Author of 22 published papers, including 20 peer-reviewed journal articles and 2 published conference papers."
+      - bullet: "Author of 24 published papers, including 20 peer-reviewed journal articles and 4 published conference papers."
       - bullet: "Research record includes 16 first- or corresponding-author peer-reviewed journal articles, 320 Google Scholar citations, h-index / i10-index of 8 / 7, and 183 verified peer reviews."
       - bullet: "Open to academic, postdoctoral, and research-oriented opportunities in intelligent construction, innovative management, smart cities, and AI-enabled built-environment research."
 
@@ -131,6 +131,12 @@ cv:
       - date: 2022
         summary: >-
           Peng, L., Fan, W., &amp; <strong>Jin, S.</strong> (2022). <a href="https://doi.org/10.12069/j.na.202206098">Analysis of campus learning environment elements for promoting innovative talent cultivation: A case study of campus space planning in two innovative research universities</a>. <em>New Architecture</em>, (6), 98-103.
+      - date: 2026
+        summary: >-
+          <strong>Jin, S.*</strong>, Deng, Y., &amp; Tu, H. (2026). <a href="https://doi.org/10.1061/9780784486962.059">Enabling intelligent collaboration in architectural programming: A hierarchical multi-agent reinforcement learning framework for mega transportation projects</a>. In <em>Construction Research Congress 2026</em> (pp. 609-619). American Society of Civil Engineers.
+      - date: 2026
+        summary: >-
+          Deng, Y., &amp; <strong>Jin, S.*</strong> (2026). <a href="https://doi.org/10.1061/9780784486979.065">Collective intelligence for architectural programming in mega transportation projects: Multi-agent simulation and optimization</a>. In <em>Construction Research Congress 2026</em> (pp. 675-685). American Society of Civil Engineers.
       - date: 2026
         summary: >-
           <strong>Jin, S.*</strong>, Deng, Y., &amp; Tu, H. (2026). <a href="https://papers.cumincad.org/data/works/att/caadria2026_268.pdf">Collective intelligence in architectural programming: Multi-agent reinforcement learning for optimization in mega transportation projects</a>. In <em>Proceedings of the 31st International Conference of the Association for Computer-Aided Architectural Design Research in Asia (CAADRIA)</em> (Vol. 1, pp. 693-702).
