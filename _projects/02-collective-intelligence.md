@@ -79,6 +79,14 @@ and social infrastructure.
 ## References
 
 <div class="research-publication-links">
+  <a class="research-publication-link" href="/publications/#jin2026intelligent_collaboration_crc">
+    <span class="research-publication-link__abbr">CRC</span>
+    <span><strong>Enabling Intelligent Collaboration in Architectural Programming</strong><small>View in Publications</small></span>
+  </a>
+  <a class="research-publication-link" href="/publications/#deng2026collective_intelligence_crc">
+    <span class="research-publication-link__abbr">CRC</span>
+    <span><strong>Collective Intelligence for Architectural Programming in Mega Transportation Projects</strong><small>View in Publications</small></span>
+  </a>
   <a class="research-publication-link" href="/publications/#tu2024group_decision_making">
     <span class="research-publication-link__abbr">ECAM</span>
     <span><strong>A Group Decision-Making Model for Architectural Programming in Megaprojects</strong><small>View in Publications</small></span>
