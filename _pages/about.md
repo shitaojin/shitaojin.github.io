@@ -37,11 +37,11 @@ In addition to research, I have architectural practice and project management ex
 
 <div class="profile-metrics">
   <div class="metric-card">
-    <strong>{{ site.data.scholar.citations | default: 320 }}</strong>
+    <strong>{{ site.data.scholar.citations | default: 390 }}</strong>
     <span>Google Scholar citations</span>
   </div>
   <div class="metric-card">
-    <strong>{{ site.data.scholar.h_index | default: 8 }} / {{ site.data.scholar.i10_index | default: 7 }}</strong>
+    <strong>{{ site.data.scholar.h_index | default: 9 }} / {{ site.data.scholar.i10_index | default: 8 }}</strong>
     <span>h-index / i10-index</span>
   </div>
   <div class="metric-card">
@@ -49,7 +49,7 @@ In addition to research, I have architectural practice and project management ex
     <span>journal papers / conference papers</span>
   </div>
   <div class="metric-card">
-    <strong>183</strong>
+    <strong>229</strong>
     <span>verified peer reviews</span>
   </div>
 </div>
@@ -69,7 +69,7 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
   </div>
   <div class="highlight-card">
     <strong>Verified peer review</strong>
-    <span>Recognized reviewer on Web of Science, with 183 verified reviews across 11 international journals.</span>
+    <span>Recognized reviewer on Web of Science, with 229 verified reviews across 16 international journals.</span>
   </div>
   <div class="highlight-card">
     <strong>Publication venues</strong>
@@ -84,6 +84,10 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
     <tbody>
       <tr class="news-year-row">
         <th colspan="2">2026</th>
+      </tr>
+      <tr>
+        <th>Nov 21, 2026</th>
+        <td>I delivered an invited presentation at the <a href="http://www.iccrem.com/en/index.php">2026 International Conference on Construction and Real Estate Management (ICCREM 2026)</a>, CityU, Hongkong, China.</td>
       </tr>
       <tr>
         <th>Jul 09, 2026</th>
@@ -123,10 +127,6 @@ I am interested in academic, postdoctoral, and research-oriented opportunities f
       <tr>
         <th>Nov 25, 2025</th>
         <td>My paper, <a href="https://doi.org/10.19875/j.cnki.jzywh.2025.11.088">Next-Gen AI Applications in Architectural Creation</a>, is now online in <em>Architecture & Culture</em>.</td>
-      </tr>
-      <tr>
-        <th>Nov 05, 2025</th>
-        <td>My paper, <a href="https://doi.org/10.1108/ECAM-01-2025-0097">Identification and Evaluation of Key Stakeholders in Megaprojects</a>, is now online in <em>Engineering, Construction and Architectural Management</em>.</td>
       </tr>
     </tbody>
   </table>

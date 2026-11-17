@@ -13,6 +13,10 @@ nav_order: 2
         <th colspan="2">2026</th>
       </tr>
       <tr>
+        <th>Nov 21, 2026</th>
+        <td>I delivered an invited presentation at the <a href="http://www.iccrem.com/en/index.php">2026 International Conference on Construction and Real Estate Management (ICCREM 2026)</a>, CityU, Hongkong, China.</td>
+      </tr>
+      <tr>
         <th>Jul 09, 2026</th>
         <td>I delivered an invited presentation at the <a href="https://archmanu.com/digitalfutures-cdrf-2026/">International Conference on Computational Design and Robotic Fabrication</a>, UNSW, Sydney, Australia.</td>
       </tr>
